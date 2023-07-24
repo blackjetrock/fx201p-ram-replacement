@@ -42,6 +42,8 @@
 // On falling edge of CE, are both cycle counters reset?
 #define RESET_BOTH_CYCLES	  1
 
+#define EMULATE_FX201P            1
+
 ////////////////////////////////////////////////////////////////////////////////
 //
 // Command codes
@@ -207,9 +209,6 @@ volatile int loop_count  = 0;
 uint8_t ram_data[RAM_SIZE];
 
 // Where are commands looked for?
-#define ADDRESS_OF_MEM(NNN) (&(ram_data[8*NNN]))
-#define MEM_OF_ADDRESS(AAA) ((AAA/8)-1)
-
 #define COMMAND_RAM_ADDR ADDRESS_OF_MEM(8)
 
 // We have a pointer to the commands so it can be changed, if required
@@ -319,12 +318,14 @@ void display_ram_at(uint8_t *dat)
 		default:
 		  if( ((*(dat-1)) & 0xF0) == 0xF0,1 )
 		    {
-		      printf("    M%02d %s %lg", MEM_OF_ADDRESS(z), mem_to_str(dat-8), mem_to_dbl(dat-8));
+		      printf("    M%02d %s %g", MEM_OF_ADDRESS(z), mem_to_str(dat-8), mem_to_dbl(dat-8));
 
+#if 0		      
 		      if( MEM_OF_ADDRESS(z)==4 )
 			{
 			  dbl_to_mem(mem_to_dbl(dat-8), dat-16);
 			}
+#endif
 		    }
 		  break;
 		}
@@ -842,13 +843,13 @@ void dbl_to_mem(double value, uint8_t *m)
       sign = 0;
     }
 
-  printf("\nSign:%d", sign);
+  //  printf("\nSign:%d", sign);
   
   value = fabs(value);
   
   double exponent = floor(log10(value));
 
-  printf("\nExponent:%g", exponent);
+  //printf("\nExponent:%g", exponent);
 
   // Normalise  
   value /= pow(10, exponent);
@@ -862,8 +863,6 @@ void dbl_to_mem(double value, uint8_t *m)
       sign |= 0x1;
     }
   
-  printf("\nSign byte:%02X", sign);
-  
   // get digits
   double dpair;
 
@@ -872,21 +871,16 @@ void dbl_to_mem(double value, uint8_t *m)
   value = value - floor(value);
   value *=100.0;
 
-  printf("\ndpair: %g Value:%g", dpair, value);
-  
   dpair = floor(value);
   dbl_to_bcd(dpair, m+4);
   value = value - floor(value);
   value *=100.0;
 
-  printf("\ndpair: %g Value:%g", dpair, value);
-    
   dpair = floor(value);
   dbl_to_bcd(dpair, m+3);
   value = value - floor(value);
   value *=100.0;
 
-  printf("\ndpair: %g Value:%g", dpair, value);
   dpair = floor(value);
   dbl_to_bcd(dpair, m+2);
   value = value - floor(value);
@@ -947,7 +941,7 @@ char *mem_to_str(uint8_t *m)
   int r5 = bcd_to_int( (m+1));
   int r6 = bcd_to_int( (m+0));
 
-  sprintf(memstr, "%s%02d.%02d%02d%02d%02d%02d %sE%02d",
+  sprintf(memstr, "%s%02d.%02d%02d%02d%02d%02d %sE%03d",
 	  man_sgn_str,
 	  r1,
 	  r2,
@@ -1386,6 +1380,11 @@ void cli_clear_program(void)
   clear_ram_mp(DO_MP_PROGRAM);
 }
 
+void cli_execute(void)
+{
+  execution_start();
+}
+
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -1480,6 +1479,11 @@ SERIAL_COMMAND serial_cmds[] =
     '-',
     "Clear Memory or Program RAM",
     cli_clear_ram_mp,
+   },
+   {
+    'r',
+    "Execute",
+    cli_execute,
    },
    {
     '0',

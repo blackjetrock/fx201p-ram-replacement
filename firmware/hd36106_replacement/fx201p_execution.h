@@ -4,6 +4,7 @@
 
 #define TOK_MAC	  0xC1
 #define TOK_1x	  0xC2
+#define TOK_GOTO  0xC2   // Alias
 #define TOK_SUB	  0xC3
 #define TOK_ST	  0xC4
 #define TOK_COLON 0xC5

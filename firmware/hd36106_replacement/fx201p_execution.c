@@ -15,9 +15,28 @@
 
 #define NUM_ST 10
 
+////////////////////////////////////////////////////////////////////////////////
+
+double mem_to_dbl(uint8_t *m);
+void dbl_to_mem(double value, uint8_t *m);
+
+////////////////////////////////////////////////////////////////////////////////
+
 int tok_loc[NUM_ST];
-int xreg = 0;
+double xreg = 0;
 int dest_reg = 0;
+int tok;
+int xref = 0;
+int pending_op = 0;
+int constant_entry = 0;
+double constant;
+
+void execution_start(void)
+{
+  exec_pc = 0x80;
+  executing = 1;
+  
+}
 
 void process_fx201p_execution(void)
 {
@@ -28,7 +47,10 @@ void process_fx201p_execution(void)
     }
 
   // Process one more keystroke
-  switch(ram_data[exec_pc])
+  tok = ram_data[exec_pc];
+  double v = 0;
+  
+  switch(tok)
     {
     case TOK_ST:
       exec_pc++;
@@ -38,8 +60,33 @@ void process_fx201p_execution(void)
       exec_pc++;
       break;
 
+    case TOK_GOTO:
+      exec_pc++;
+      exec_pc = tok_loc[ram_data[exec_pc]];
+	    
+      break;
+
+    case TOK_K:
+      constant_entry = 1;
+      constant = 0;
+      break;
+
+    case TOK_tan:
+      // Increment memory 1
+      v = mem_to_dbl(ADDRESS_OF_MEM(1));
+      v = v + 1;
+      dbl_to_mem(v, ADDRESS_OF_MEM(1));
+
+      exec_pc++;
+      break;
+      
     case TOK_COLON:
-      // Ignore for now
+      if( pending_op )
+	{
+	  xreg = xreg + constant;
+	}
+      
+      exec_pc++;
       break;
 
     case TOK_0:
@@ -52,16 +99,34 @@ void process_fx201p_execution(void)
     case TOK_7:
     case TOK_8:
     case TOK_9:
-      // Store X register
-      xreg = ram_data[exec_pc] - TOK_0;
+      if( constant_entry )
+	{
+	  constant *=10;
+	  constant += tok -TOK_0;
+	}
+      else
+	{
+	  // Load X register with contents of memory n
+	  xreg = mem_to_dbl(ADDRESS_OF_MEM(tok-TOK_0));
+	  
+	  xref = tok-TOK_0;
+	}
+      exec_pc++;
       break;
 
     case TOK_EQ:
-      dest_reg = xreg;
+      dest_reg = xref;
+      exec_pc++;
       break;
 
     case TOK_PL:
-      
+      pending_op = tok;
+      exec_pc++;
       break;
     }
+#if 0
+  printf("\nPC:%03X", exec_pc);
+  printf("\nxref=%d  xreg=%g", xref, xreg);
+  printf("\n");
+#endif
 }

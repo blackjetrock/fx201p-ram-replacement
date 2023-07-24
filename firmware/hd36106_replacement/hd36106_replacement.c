@@ -31,6 +31,8 @@
 #include "pico/multicore.h"
 #include "pico/bootrom.h"
 
+#include "fx201p.h"
+
 // Single shot trae, don't repeatedly capture data
 #define SINGLE_SHOT     0
 
@@ -196,12 +198,6 @@ volatile int loop_count  = 0;
 // Two HD36106s are emulated, one stores the program, the other stores memories.
 //
 
-#define RAM_SIZE    256
-#define RAM_SIZE_M  128
-#define RAM_SIZE_P  128
-
-#define RAM_OFF_M   0
-#define RAM_OFF_P   128
 
 #define DO_MP_MEMORIES    1
 #define DO_MP_PROGRAM     2
@@ -260,6 +256,7 @@ void print_keystroke_to_buffer(int byte, int no_lf);
 void serial_help(void);
 double mem_to_dbl(uint8_t *m);
 char *mem_to_str(uint8_t *m);
+void dbl_to_mem(double value, uint8_t *m);
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -322,7 +319,12 @@ void display_ram_at(uint8_t *dat)
 		default:
 		  if( ((*(dat-1)) & 0xF0) == 0xF0 )
 		    {
-		      printf("    M%02d %s", MEM_OF_ADDRESS(z), mem_to_str(dat-8));
+		      printf("    M%02d %s %lg", MEM_OF_ADDRESS(z), mem_to_str(dat-8), mem_to_dbl(dat-8));
+
+		      if( MEM_OF_ADDRESS(z)==4 )
+			{
+			  dbl_to_mem(mem_to_dbl(dat-8), dat-16);
+			}
 		    }
 		  break;
 		}
@@ -810,8 +812,112 @@ int bcd_to_int(uint8_t *b)
   return(result);
 }
 
+void dbl_to_bcd(double v, uint8_t *m)
+{
+  int byte;
+  double intpart;
+  double fracpart = modf(v/10.0, &intpart);
+
+  byte = intpart * 16.0;
+  byte += (fracpart * 10.0);
+
+  *m = byte;
+}
+
+//------------------------------------------------------------------------------
+
+
+void dbl_to_mem(double value, uint8_t *m)
+{
+  int sign = 0;
+  int exp_sign = 0;
+
+  // Build up sign byte
+  if( value < 0.0 )
+    {
+      sign = 0;
+    }
+  else
+    {
+      sign = 1;
+    }
+
+  printf("\nSign:%d", sign);
+  
+  value = fabs(value);
+  
+  double exponent = floor(log10(value));
+
+  printf("\nExponent:%g", exponent);
+
+  // Normalise  
+  value /= pow(10, exponent);
+  
+  if( exponent < 0.0 )
+    {
+      sign |= 0x4;
+      exponent = 100+exponent;
+    }
+  else
+    {
+
+    }
+  
+  printf("\nSign byte:%02X", sign);
+  
+  // get digits
+  double dpair;
+
+  dpair = floor(value);
+  dbl_to_bcd(dpair, m+5);
+  value = value - floor(value);
+  value *=100.0;
+
+  printf("\ndpair: %g Value:%g", dpair, value);
+  
+  dpair = floor(value);
+  dbl_to_bcd(dpair, m+4);
+  value = value - floor(value);
+  value *=100.0;
+
+  printf("\ndpair: %g Value:%g", dpair, value);
+    
+  dpair = floor(value);
+  dbl_to_bcd(dpair, m+3);
+  value = value - floor(value);
+  value *=100.0;
+
+  printf("\ndpair: %g Value:%g", dpair, value);
+  dpair = floor(value);
+  dbl_to_bcd(dpair, m+2);
+  value = value - floor(value);
+  value *=100.0;
+
+  dpair = floor(value);
+  dbl_to_bcd(dpair, m+1);
+  value = value - floor(value);
+  value *=100.0;
+
+  dpair = floor(value);
+  dbl_to_bcd(dpair, m+0);
+  value = value - floor(value);
+  value *=100.0;
+
+  // Write exponent and signs
+  dbl_to_bcd(exponent, m+6);
+
+  int signs = 0xF0;
+
+  *(m+7) = sign; 
+  
+}
+
+////////////////////////////////////////////////////////////////////////////////
+//
 // Converts a memory to a string representation
 // Fixed format with exponent
+//
+////////////////////////////////////////////////////////////////////////////////
 
 #define MEM_STR_LEN  40
 

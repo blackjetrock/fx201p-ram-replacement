@@ -80,4 +80,5 @@ CMakeFiles/hd36106_replacement.dir/hd36106_replacement.c.obj: \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
- /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
+ /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+ /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/fx201p.h

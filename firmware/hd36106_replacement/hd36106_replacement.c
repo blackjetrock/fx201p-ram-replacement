@@ -317,7 +317,7 @@ void display_ram_at(uint8_t *dat)
 		  break;
 		  
 		default:
-		  if( ((*(dat-1)) & 0xF0) == 0xF0 )
+		  if( ((*(dat-1)) & 0xF0) == 0xF0,1 )
 		    {
 		      printf("    M%02d %s %lg", MEM_OF_ADDRESS(z), mem_to_str(dat-8), mem_to_dbl(dat-8));
 
@@ -835,11 +835,11 @@ void dbl_to_mem(double value, uint8_t *m)
   // Build up sign byte
   if( value < 0.0 )
     {
-      sign = 0;
+      sign = 4;
     }
   else
     {
-      sign = 1;
+      sign = 0;
     }
 
   printf("\nSign:%d", sign);
@@ -855,12 +855,11 @@ void dbl_to_mem(double value, uint8_t *m)
   
   if( exponent < 0.0 )
     {
-      sign |= 0x4;
       exponent = 100+exponent;
     }
   else
     {
-
+      sign |= 0x1;
     }
   
   printf("\nSign byte:%02X", sign);

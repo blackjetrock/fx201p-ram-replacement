@@ -1,19 +1,14 @@
 ////////////////////////////////////////////////////////////////////////////////
 //
-//  Tracer/LA for HD36106
+//  FX201P HD36106 RAM Replacement
 //
 ////////////////////////////////////////////////////////////////////////////////
 //
 // Emulates two HD36106 RAM chips, specificslly for the FX201P calculator
 //
-// On FX201P:
-//
-// CE high while transfers to lower (program) HD
-// Data positive logic
-//
-// It looks like the HD36106 has an active low CE. Also, there are pulses on CE
-// which have to be ignored, I think, as the CLKB(?) should be used to qualify the
-// signal. 
+// Both RAM chips emulated
+// RAM can be saved and loaded to and from RP2040 flash
+// 
 //
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -1823,6 +1818,10 @@ int main()
 #if NO_TRACE_USB
 #else
       process_bus();
+#endif
+
+#if EMULATE_FX201P
+      process_fx201p_execution();
 #endif
     }
 }

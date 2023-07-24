@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.obj"
+  "CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.obj.d"
   "CMakeFiles/hd36106_replacement.dir/hd36106_replacement.c.obj"
   "CMakeFiles/hd36106_replacement.dir/hd36106_replacement.c.obj.d"
   "CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"

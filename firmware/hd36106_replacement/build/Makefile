@@ -298,6 +298,30 @@ pico_scanvideo_dpi_timing_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build.make pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build
 .PHONY : pico_scanvideo_dpi_timing_pio_h/fast
 
+fx201p_execution.obj: fx201p_execution.c.obj
+.PHONY : fx201p_execution.obj
+
+# target to build an object file
+fx201p_execution.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.obj
+.PHONY : fx201p_execution.c.obj
+
+fx201p_execution.i: fx201p_execution.c.i
+.PHONY : fx201p_execution.i
+
+# target to preprocess a source file
+fx201p_execution.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.i
+.PHONY : fx201p_execution.c.i
+
+fx201p_execution.s: fx201p_execution.c.s
+.PHONY : fx201p_execution.s
+
+# target to generate assembly for a file
+fx201p_execution.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.s
+.PHONY : fx201p_execution.c.s
+
 hd36106_replacement.obj: hd36106_replacement.c.obj
 .PHONY : hd36106_replacement.obj
 
@@ -1920,6 +1944,9 @@ help:
 	@echo "... pico_sd_card_sd_card_pio_h"
 	@echo "... bs2_default"
 	@echo "... hd36106_replacement"
+	@echo "... fx201p_execution.obj"
+	@echo "... fx201p_execution.i"
+	@echo "... fx201p_execution.s"
 	@echo "... hd36106_replacement.obj"
 	@echo "... hd36106_replacement.i"
 	@echo "... hd36106_replacement.s"

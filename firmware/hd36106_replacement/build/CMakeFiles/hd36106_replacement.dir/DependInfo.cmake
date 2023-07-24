@@ -131,6 +131,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/fx201p_execution.c" "CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.obj" "gcc" "CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.obj.d"
   "/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/hd36106_replacement.c" "CMakeFiles/hd36106_replacement.dir/hd36106_replacement.c.obj" "gcc" "CMakeFiles/hd36106_replacement.dir/hd36106_replacement.c.obj.d"
   "/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" "gcc" "CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" "gcc" "CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d"

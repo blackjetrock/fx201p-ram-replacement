@@ -27,7 +27,7 @@ pico_sdk_init()
 
 add_executable(hd36106_replacement
 hd36106_replacement.c
-#flashcode.c
+fx201p_execution.c
 #../common/link_common.c
 )
 

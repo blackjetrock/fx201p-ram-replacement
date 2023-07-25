@@ -2,6 +2,8 @@
 
 // Instruction tokens
 
+#define TOK_NONE  0x00
+
 #define TOK_MAC	  0xC1
 #define TOK_1x	  0xC2
 #define TOK_GOTO  0xC2   // Alias

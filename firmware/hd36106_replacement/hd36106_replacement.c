@@ -256,6 +256,7 @@ void serial_help(void);
 double mem_to_dbl(uint8_t *m);
 char *mem_to_str(uint8_t *m);
 void dbl_to_mem(double value, uint8_t *m);
+void print_keystroke_to_buffer(int byte, int no_lf);
 
 ////////////////////////////////////////////////////////////////////////////////
 

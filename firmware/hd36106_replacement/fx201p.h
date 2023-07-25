@@ -14,7 +14,7 @@
 #define RAM_OFF_P   128
 
 
-#define ADDRESS_OF_MEM(NNN) (&(ram_data[8*NNN]))
-#define MEM_OF_ADDRESS(AAA) ((AAA/8)-1)
+#define ADDRESS_OF_MEM(NNN) (&(ram_data[8*(NNN)]))
+#define MEM_OF_ADDRESS(AAA) (((AAA)/8)-1)
 void process_fx201p_execution(void);
 void execution_start(void);

@@ -13,8 +13,11 @@
 #include "fx201p.h"
 #include "fx201p_execution.h"
 
+#include "bid/bid_conf.h"
+#include "bid/bid_functions.h"
+
 #define NUM_ST       10
-#define DEBUG_EXEC    1
+#define DEBUG_EXEC    0
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -40,6 +43,9 @@ int pending_op = NO_PENDING_OP;
 int constant_entry = 0;
 double constant;
 
+// Some statements an't be exeuted, we skip them.
+int run_to_colon = 0;
+
 void execution_start(void)
 {
   exec_pc = 0x80;
@@ -53,10 +59,18 @@ void process_fx201p_execution(void)
     {
       return;
     }
-
+  
   // Process one more keystroke
   tok = ram_data[exec_pc];
   double v = 0;
+
+  if( run_to_colon )
+    {
+      if( tok != TOK_COLON )
+	{
+	  exec_pc++;
+	}
+    }
   
   switch(tok)
     {
@@ -77,6 +91,11 @@ void process_fx201p_execution(void)
       exec_pc = tok_loc[ram_data[exec_pc]];
       break;
 
+    case TOK_ANS:
+      exec_pc++;
+      run_to_colon = 1;
+      break;
+      
     case TOK_K:
       constant_entry = 1;
       constant = 0.0;

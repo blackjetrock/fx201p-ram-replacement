@@ -298,6 +298,1734 @@ pico_scanvideo_dpi_timing_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build.make pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build
 .PHONY : pico_scanvideo_dpi_timing_pio_h/fast
 
+bid/bid128.obj: bid/bid128.c.obj
+.PHONY : bid/bid128.obj
+
+# target to build an object file
+bid/bid128.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128.c.obj
+.PHONY : bid/bid128.c.obj
+
+bid/bid128.i: bid/bid128.c.i
+.PHONY : bid/bid128.i
+
+# target to preprocess a source file
+bid/bid128.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128.c.i
+.PHONY : bid/bid128.c.i
+
+bid/bid128.s: bid/bid128.c.s
+.PHONY : bid/bid128.s
+
+# target to generate assembly for a file
+bid/bid128.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128.c.s
+.PHONY : bid/bid128.c.s
+
+bid/bid128_2_str_tables.obj: bid/bid128_2_str_tables.c.obj
+.PHONY : bid/bid128_2_str_tables.obj
+
+# target to build an object file
+bid/bid128_2_str_tables.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.obj
+.PHONY : bid/bid128_2_str_tables.c.obj
+
+bid/bid128_2_str_tables.i: bid/bid128_2_str_tables.c.i
+.PHONY : bid/bid128_2_str_tables.i
+
+# target to preprocess a source file
+bid/bid128_2_str_tables.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.i
+.PHONY : bid/bid128_2_str_tables.c.i
+
+bid/bid128_2_str_tables.s: bid/bid128_2_str_tables.c.s
+.PHONY : bid/bid128_2_str_tables.s
+
+# target to generate assembly for a file
+bid/bid128_2_str_tables.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.s
+.PHONY : bid/bid128_2_str_tables.c.s
+
+bid/bid128_acos.obj: bid/bid128_acos.c.obj
+.PHONY : bid/bid128_acos.obj
+
+# target to build an object file
+bid/bid128_acos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.obj
+.PHONY : bid/bid128_acos.c.obj
+
+bid/bid128_acos.i: bid/bid128_acos.c.i
+.PHONY : bid/bid128_acos.i
+
+# target to preprocess a source file
+bid/bid128_acos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.i
+.PHONY : bid/bid128_acos.c.i
+
+bid/bid128_acos.s: bid/bid128_acos.c.s
+.PHONY : bid/bid128_acos.s
+
+# target to generate assembly for a file
+bid/bid128_acos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.s
+.PHONY : bid/bid128_acos.c.s
+
+bid/bid128_acosh.obj: bid/bid128_acosh.c.obj
+.PHONY : bid/bid128_acosh.obj
+
+# target to build an object file
+bid/bid128_acosh.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.obj
+.PHONY : bid/bid128_acosh.c.obj
+
+bid/bid128_acosh.i: bid/bid128_acosh.c.i
+.PHONY : bid/bid128_acosh.i
+
+# target to preprocess a source file
+bid/bid128_acosh.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.i
+.PHONY : bid/bid128_acosh.c.i
+
+bid/bid128_acosh.s: bid/bid128_acosh.c.s
+.PHONY : bid/bid128_acosh.s
+
+# target to generate assembly for a file
+bid/bid128_acosh.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.s
+.PHONY : bid/bid128_acosh.c.s
+
+bid/bid128_add.obj: bid/bid128_add.c.obj
+.PHONY : bid/bid128_add.obj
+
+# target to build an object file
+bid/bid128_add.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.obj
+.PHONY : bid/bid128_add.c.obj
+
+bid/bid128_add.i: bid/bid128_add.c.i
+.PHONY : bid/bid128_add.i
+
+# target to preprocess a source file
+bid/bid128_add.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.i
+.PHONY : bid/bid128_add.c.i
+
+bid/bid128_add.s: bid/bid128_add.c.s
+.PHONY : bid/bid128_add.s
+
+# target to generate assembly for a file
+bid/bid128_add.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.s
+.PHONY : bid/bid128_add.c.s
+
+bid/bid128_asin.obj: bid/bid128_asin.c.obj
+.PHONY : bid/bid128_asin.obj
+
+# target to build an object file
+bid/bid128_asin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.obj
+.PHONY : bid/bid128_asin.c.obj
+
+bid/bid128_asin.i: bid/bid128_asin.c.i
+.PHONY : bid/bid128_asin.i
+
+# target to preprocess a source file
+bid/bid128_asin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.i
+.PHONY : bid/bid128_asin.c.i
+
+bid/bid128_asin.s: bid/bid128_asin.c.s
+.PHONY : bid/bid128_asin.s
+
+# target to generate assembly for a file
+bid/bid128_asin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.s
+.PHONY : bid/bid128_asin.c.s
+
+bid/bid128_asinh.obj: bid/bid128_asinh.c.obj
+.PHONY : bid/bid128_asinh.obj
+
+# target to build an object file
+bid/bid128_asinh.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.obj
+.PHONY : bid/bid128_asinh.c.obj
+
+bid/bid128_asinh.i: bid/bid128_asinh.c.i
+.PHONY : bid/bid128_asinh.i
+
+# target to preprocess a source file
+bid/bid128_asinh.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.i
+.PHONY : bid/bid128_asinh.c.i
+
+bid/bid128_asinh.s: bid/bid128_asinh.c.s
+.PHONY : bid/bid128_asinh.s
+
+# target to generate assembly for a file
+bid/bid128_asinh.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.s
+.PHONY : bid/bid128_asinh.c.s
+
+bid/bid128_atan.obj: bid/bid128_atan.c.obj
+.PHONY : bid/bid128_atan.obj
+
+# target to build an object file
+bid/bid128_atan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.obj
+.PHONY : bid/bid128_atan.c.obj
+
+bid/bid128_atan.i: bid/bid128_atan.c.i
+.PHONY : bid/bid128_atan.i
+
+# target to preprocess a source file
+bid/bid128_atan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.i
+.PHONY : bid/bid128_atan.c.i
+
+bid/bid128_atan.s: bid/bid128_atan.c.s
+.PHONY : bid/bid128_atan.s
+
+# target to generate assembly for a file
+bid/bid128_atan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.s
+.PHONY : bid/bid128_atan.c.s
+
+bid/bid128_atan2.obj: bid/bid128_atan2.c.obj
+.PHONY : bid/bid128_atan2.obj
+
+# target to build an object file
+bid/bid128_atan2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.obj
+.PHONY : bid/bid128_atan2.c.obj
+
+bid/bid128_atan2.i: bid/bid128_atan2.c.i
+.PHONY : bid/bid128_atan2.i
+
+# target to preprocess a source file
+bid/bid128_atan2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.i
+.PHONY : bid/bid128_atan2.c.i
+
+bid/bid128_atan2.s: bid/bid128_atan2.c.s
+.PHONY : bid/bid128_atan2.s
+
+# target to generate assembly for a file
+bid/bid128_atan2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.s
+.PHONY : bid/bid128_atan2.c.s
+
+bid/bid128_atanh.obj: bid/bid128_atanh.c.obj
+.PHONY : bid/bid128_atanh.obj
+
+# target to build an object file
+bid/bid128_atanh.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.obj
+.PHONY : bid/bid128_atanh.c.obj
+
+bid/bid128_atanh.i: bid/bid128_atanh.c.i
+.PHONY : bid/bid128_atanh.i
+
+# target to preprocess a source file
+bid/bid128_atanh.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.i
+.PHONY : bid/bid128_atanh.c.i
+
+bid/bid128_atanh.s: bid/bid128_atanh.c.s
+.PHONY : bid/bid128_atanh.s
+
+# target to generate assembly for a file
+bid/bid128_atanh.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.s
+.PHONY : bid/bid128_atanh.c.s
+
+bid/bid128_cbrt.obj: bid/bid128_cbrt.c.obj
+.PHONY : bid/bid128_cbrt.obj
+
+# target to build an object file
+bid/bid128_cbrt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.obj
+.PHONY : bid/bid128_cbrt.c.obj
+
+bid/bid128_cbrt.i: bid/bid128_cbrt.c.i
+.PHONY : bid/bid128_cbrt.i
+
+# target to preprocess a source file
+bid/bid128_cbrt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.i
+.PHONY : bid/bid128_cbrt.c.i
+
+bid/bid128_cbrt.s: bid/bid128_cbrt.c.s
+.PHONY : bid/bid128_cbrt.s
+
+# target to generate assembly for a file
+bid/bid128_cbrt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.s
+.PHONY : bid/bid128_cbrt.c.s
+
+bid/bid128_compare.obj: bid/bid128_compare.c.obj
+.PHONY : bid/bid128_compare.obj
+
+# target to build an object file
+bid/bid128_compare.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.obj
+.PHONY : bid/bid128_compare.c.obj
+
+bid/bid128_compare.i: bid/bid128_compare.c.i
+.PHONY : bid/bid128_compare.i
+
+# target to preprocess a source file
+bid/bid128_compare.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.i
+.PHONY : bid/bid128_compare.c.i
+
+bid/bid128_compare.s: bid/bid128_compare.c.s
+.PHONY : bid/bid128_compare.s
+
+# target to generate assembly for a file
+bid/bid128_compare.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.s
+.PHONY : bid/bid128_compare.c.s
+
+bid/bid128_cos.obj: bid/bid128_cos.c.obj
+.PHONY : bid/bid128_cos.obj
+
+# target to build an object file
+bid/bid128_cos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.obj
+.PHONY : bid/bid128_cos.c.obj
+
+bid/bid128_cos.i: bid/bid128_cos.c.i
+.PHONY : bid/bid128_cos.i
+
+# target to preprocess a source file
+bid/bid128_cos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.i
+.PHONY : bid/bid128_cos.c.i
+
+bid/bid128_cos.s: bid/bid128_cos.c.s
+.PHONY : bid/bid128_cos.s
+
+# target to generate assembly for a file
+bid/bid128_cos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.s
+.PHONY : bid/bid128_cos.c.s
+
+bid/bid128_cosh.obj: bid/bid128_cosh.c.obj
+.PHONY : bid/bid128_cosh.obj
+
+# target to build an object file
+bid/bid128_cosh.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.obj
+.PHONY : bid/bid128_cosh.c.obj
+
+bid/bid128_cosh.i: bid/bid128_cosh.c.i
+.PHONY : bid/bid128_cosh.i
+
+# target to preprocess a source file
+bid/bid128_cosh.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.i
+.PHONY : bid/bid128_cosh.c.i
+
+bid/bid128_cosh.s: bid/bid128_cosh.c.s
+.PHONY : bid/bid128_cosh.s
+
+# target to generate assembly for a file
+bid/bid128_cosh.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.s
+.PHONY : bid/bid128_cosh.c.s
+
+bid/bid128_div.obj: bid/bid128_div.c.obj
+.PHONY : bid/bid128_div.obj
+
+# target to build an object file
+bid/bid128_div.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.obj
+.PHONY : bid/bid128_div.c.obj
+
+bid/bid128_div.i: bid/bid128_div.c.i
+.PHONY : bid/bid128_div.i
+
+# target to preprocess a source file
+bid/bid128_div.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.i
+.PHONY : bid/bid128_div.c.i
+
+bid/bid128_div.s: bid/bid128_div.c.s
+.PHONY : bid/bid128_div.s
+
+# target to generate assembly for a file
+bid/bid128_div.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.s
+.PHONY : bid/bid128_div.c.s
+
+bid/bid128_erf.obj: bid/bid128_erf.c.obj
+.PHONY : bid/bid128_erf.obj
+
+# target to build an object file
+bid/bid128_erf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.obj
+.PHONY : bid/bid128_erf.c.obj
+
+bid/bid128_erf.i: bid/bid128_erf.c.i
+.PHONY : bid/bid128_erf.i
+
+# target to preprocess a source file
+bid/bid128_erf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.i
+.PHONY : bid/bid128_erf.c.i
+
+bid/bid128_erf.s: bid/bid128_erf.c.s
+.PHONY : bid/bid128_erf.s
+
+# target to generate assembly for a file
+bid/bid128_erf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.s
+.PHONY : bid/bid128_erf.c.s
+
+bid/bid128_erfc.obj: bid/bid128_erfc.c.obj
+.PHONY : bid/bid128_erfc.obj
+
+# target to build an object file
+bid/bid128_erfc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.obj
+.PHONY : bid/bid128_erfc.c.obj
+
+bid/bid128_erfc.i: bid/bid128_erfc.c.i
+.PHONY : bid/bid128_erfc.i
+
+# target to preprocess a source file
+bid/bid128_erfc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.i
+.PHONY : bid/bid128_erfc.c.i
+
+bid/bid128_erfc.s: bid/bid128_erfc.c.s
+.PHONY : bid/bid128_erfc.s
+
+# target to generate assembly for a file
+bid/bid128_erfc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.s
+.PHONY : bid/bid128_erfc.c.s
+
+bid/bid128_exp.obj: bid/bid128_exp.c.obj
+.PHONY : bid/bid128_exp.obj
+
+# target to build an object file
+bid/bid128_exp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.obj
+.PHONY : bid/bid128_exp.c.obj
+
+bid/bid128_exp.i: bid/bid128_exp.c.i
+.PHONY : bid/bid128_exp.i
+
+# target to preprocess a source file
+bid/bid128_exp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.i
+.PHONY : bid/bid128_exp.c.i
+
+bid/bid128_exp.s: bid/bid128_exp.c.s
+.PHONY : bid/bid128_exp.s
+
+# target to generate assembly for a file
+bid/bid128_exp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.s
+.PHONY : bid/bid128_exp.c.s
+
+bid/bid128_exp10.obj: bid/bid128_exp10.c.obj
+.PHONY : bid/bid128_exp10.obj
+
+# target to build an object file
+bid/bid128_exp10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.obj
+.PHONY : bid/bid128_exp10.c.obj
+
+bid/bid128_exp10.i: bid/bid128_exp10.c.i
+.PHONY : bid/bid128_exp10.i
+
+# target to preprocess a source file
+bid/bid128_exp10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.i
+.PHONY : bid/bid128_exp10.c.i
+
+bid/bid128_exp10.s: bid/bid128_exp10.c.s
+.PHONY : bid/bid128_exp10.s
+
+# target to generate assembly for a file
+bid/bid128_exp10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.s
+.PHONY : bid/bid128_exp10.c.s
+
+bid/bid128_exp2.obj: bid/bid128_exp2.c.obj
+.PHONY : bid/bid128_exp2.obj
+
+# target to build an object file
+bid/bid128_exp2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.obj
+.PHONY : bid/bid128_exp2.c.obj
+
+bid/bid128_exp2.i: bid/bid128_exp2.c.i
+.PHONY : bid/bid128_exp2.i
+
+# target to preprocess a source file
+bid/bid128_exp2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.i
+.PHONY : bid/bid128_exp2.c.i
+
+bid/bid128_exp2.s: bid/bid128_exp2.c.s
+.PHONY : bid/bid128_exp2.s
+
+# target to generate assembly for a file
+bid/bid128_exp2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.s
+.PHONY : bid/bid128_exp2.c.s
+
+bid/bid128_expm1.obj: bid/bid128_expm1.c.obj
+.PHONY : bid/bid128_expm1.obj
+
+# target to build an object file
+bid/bid128_expm1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.obj
+.PHONY : bid/bid128_expm1.c.obj
+
+bid/bid128_expm1.i: bid/bid128_expm1.c.i
+.PHONY : bid/bid128_expm1.i
+
+# target to preprocess a source file
+bid/bid128_expm1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.i
+.PHONY : bid/bid128_expm1.c.i
+
+bid/bid128_expm1.s: bid/bid128_expm1.c.s
+.PHONY : bid/bid128_expm1.s
+
+# target to generate assembly for a file
+bid/bid128_expm1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.s
+.PHONY : bid/bid128_expm1.c.s
+
+bid/bid128_fdimd.obj: bid/bid128_fdimd.c.obj
+.PHONY : bid/bid128_fdimd.obj
+
+# target to build an object file
+bid/bid128_fdimd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.obj
+.PHONY : bid/bid128_fdimd.c.obj
+
+bid/bid128_fdimd.i: bid/bid128_fdimd.c.i
+.PHONY : bid/bid128_fdimd.i
+
+# target to preprocess a source file
+bid/bid128_fdimd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.i
+.PHONY : bid/bid128_fdimd.c.i
+
+bid/bid128_fdimd.s: bid/bid128_fdimd.c.s
+.PHONY : bid/bid128_fdimd.s
+
+# target to generate assembly for a file
+bid/bid128_fdimd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.s
+.PHONY : bid/bid128_fdimd.c.s
+
+bid/bid128_fma.obj: bid/bid128_fma.c.obj
+.PHONY : bid/bid128_fma.obj
+
+# target to build an object file
+bid/bid128_fma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.obj
+.PHONY : bid/bid128_fma.c.obj
+
+bid/bid128_fma.i: bid/bid128_fma.c.i
+.PHONY : bid/bid128_fma.i
+
+# target to preprocess a source file
+bid/bid128_fma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.i
+.PHONY : bid/bid128_fma.c.i
+
+bid/bid128_fma.s: bid/bid128_fma.c.s
+.PHONY : bid/bid128_fma.s
+
+# target to generate assembly for a file
+bid/bid128_fma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.s
+.PHONY : bid/bid128_fma.c.s
+
+bid/bid128_fmod.obj: bid/bid128_fmod.c.obj
+.PHONY : bid/bid128_fmod.obj
+
+# target to build an object file
+bid/bid128_fmod.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.obj
+.PHONY : bid/bid128_fmod.c.obj
+
+bid/bid128_fmod.i: bid/bid128_fmod.c.i
+.PHONY : bid/bid128_fmod.i
+
+# target to preprocess a source file
+bid/bid128_fmod.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.i
+.PHONY : bid/bid128_fmod.c.i
+
+bid/bid128_fmod.s: bid/bid128_fmod.c.s
+.PHONY : bid/bid128_fmod.s
+
+# target to generate assembly for a file
+bid/bid128_fmod.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.s
+.PHONY : bid/bid128_fmod.c.s
+
+bid/bid128_frexp.obj: bid/bid128_frexp.c.obj
+.PHONY : bid/bid128_frexp.obj
+
+# target to build an object file
+bid/bid128_frexp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.obj
+.PHONY : bid/bid128_frexp.c.obj
+
+bid/bid128_frexp.i: bid/bid128_frexp.c.i
+.PHONY : bid/bid128_frexp.i
+
+# target to preprocess a source file
+bid/bid128_frexp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.i
+.PHONY : bid/bid128_frexp.c.i
+
+bid/bid128_frexp.s: bid/bid128_frexp.c.s
+.PHONY : bid/bid128_frexp.s
+
+# target to generate assembly for a file
+bid/bid128_frexp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.s
+.PHONY : bid/bid128_frexp.c.s
+
+bid/bid128_hypot.obj: bid/bid128_hypot.c.obj
+.PHONY : bid/bid128_hypot.obj
+
+# target to build an object file
+bid/bid128_hypot.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.obj
+.PHONY : bid/bid128_hypot.c.obj
+
+bid/bid128_hypot.i: bid/bid128_hypot.c.i
+.PHONY : bid/bid128_hypot.i
+
+# target to preprocess a source file
+bid/bid128_hypot.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.i
+.PHONY : bid/bid128_hypot.c.i
+
+bid/bid128_hypot.s: bid/bid128_hypot.c.s
+.PHONY : bid/bid128_hypot.s
+
+# target to generate assembly for a file
+bid/bid128_hypot.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.s
+.PHONY : bid/bid128_hypot.c.s
+
+bid/bid128_ldexp.obj: bid/bid128_ldexp.c.obj
+.PHONY : bid/bid128_ldexp.obj
+
+# target to build an object file
+bid/bid128_ldexp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.obj
+.PHONY : bid/bid128_ldexp.c.obj
+
+bid/bid128_ldexp.i: bid/bid128_ldexp.c.i
+.PHONY : bid/bid128_ldexp.i
+
+# target to preprocess a source file
+bid/bid128_ldexp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.i
+.PHONY : bid/bid128_ldexp.c.i
+
+bid/bid128_ldexp.s: bid/bid128_ldexp.c.s
+.PHONY : bid/bid128_ldexp.s
+
+# target to generate assembly for a file
+bid/bid128_ldexp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.s
+.PHONY : bid/bid128_ldexp.c.s
+
+bid/bid128_lgamma.obj: bid/bid128_lgamma.c.obj
+.PHONY : bid/bid128_lgamma.obj
+
+# target to build an object file
+bid/bid128_lgamma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.obj
+.PHONY : bid/bid128_lgamma.c.obj
+
+bid/bid128_lgamma.i: bid/bid128_lgamma.c.i
+.PHONY : bid/bid128_lgamma.i
+
+# target to preprocess a source file
+bid/bid128_lgamma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.i
+.PHONY : bid/bid128_lgamma.c.i
+
+bid/bid128_lgamma.s: bid/bid128_lgamma.c.s
+.PHONY : bid/bid128_lgamma.s
+
+# target to generate assembly for a file
+bid/bid128_lgamma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.s
+.PHONY : bid/bid128_lgamma.c.s
+
+bid/bid128_llquantexpd.obj: bid/bid128_llquantexpd.c.obj
+.PHONY : bid/bid128_llquantexpd.obj
+
+# target to build an object file
+bid/bid128_llquantexpd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.obj
+.PHONY : bid/bid128_llquantexpd.c.obj
+
+bid/bid128_llquantexpd.i: bid/bid128_llquantexpd.c.i
+.PHONY : bid/bid128_llquantexpd.i
+
+# target to preprocess a source file
+bid/bid128_llquantexpd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.i
+.PHONY : bid/bid128_llquantexpd.c.i
+
+bid/bid128_llquantexpd.s: bid/bid128_llquantexpd.c.s
+.PHONY : bid/bid128_llquantexpd.s
+
+# target to generate assembly for a file
+bid/bid128_llquantexpd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.s
+.PHONY : bid/bid128_llquantexpd.c.s
+
+bid/bid128_llrintd.obj: bid/bid128_llrintd.c.obj
+.PHONY : bid/bid128_llrintd.obj
+
+# target to build an object file
+bid/bid128_llrintd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.obj
+.PHONY : bid/bid128_llrintd.c.obj
+
+bid/bid128_llrintd.i: bid/bid128_llrintd.c.i
+.PHONY : bid/bid128_llrintd.i
+
+# target to preprocess a source file
+bid/bid128_llrintd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.i
+.PHONY : bid/bid128_llrintd.c.i
+
+bid/bid128_llrintd.s: bid/bid128_llrintd.c.s
+.PHONY : bid/bid128_llrintd.s
+
+# target to generate assembly for a file
+bid/bid128_llrintd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.s
+.PHONY : bid/bid128_llrintd.c.s
+
+bid/bid128_llround.obj: bid/bid128_llround.c.obj
+.PHONY : bid/bid128_llround.obj
+
+# target to build an object file
+bid/bid128_llround.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.obj
+.PHONY : bid/bid128_llround.c.obj
+
+bid/bid128_llround.i: bid/bid128_llround.c.i
+.PHONY : bid/bid128_llround.i
+
+# target to preprocess a source file
+bid/bid128_llround.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.i
+.PHONY : bid/bid128_llround.c.i
+
+bid/bid128_llround.s: bid/bid128_llround.c.s
+.PHONY : bid/bid128_llround.s
+
+# target to generate assembly for a file
+bid/bid128_llround.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.s
+.PHONY : bid/bid128_llround.c.s
+
+bid/bid128_log.obj: bid/bid128_log.c.obj
+.PHONY : bid/bid128_log.obj
+
+# target to build an object file
+bid/bid128_log.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.obj
+.PHONY : bid/bid128_log.c.obj
+
+bid/bid128_log.i: bid/bid128_log.c.i
+.PHONY : bid/bid128_log.i
+
+# target to preprocess a source file
+bid/bid128_log.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.i
+.PHONY : bid/bid128_log.c.i
+
+bid/bid128_log.s: bid/bid128_log.c.s
+.PHONY : bid/bid128_log.s
+
+# target to generate assembly for a file
+bid/bid128_log.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.s
+.PHONY : bid/bid128_log.c.s
+
+bid/bid128_log10.obj: bid/bid128_log10.c.obj
+.PHONY : bid/bid128_log10.obj
+
+# target to build an object file
+bid/bid128_log10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.obj
+.PHONY : bid/bid128_log10.c.obj
+
+bid/bid128_log10.i: bid/bid128_log10.c.i
+.PHONY : bid/bid128_log10.i
+
+# target to preprocess a source file
+bid/bid128_log10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.i
+.PHONY : bid/bid128_log10.c.i
+
+bid/bid128_log10.s: bid/bid128_log10.c.s
+.PHONY : bid/bid128_log10.s
+
+# target to generate assembly for a file
+bid/bid128_log10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.s
+.PHONY : bid/bid128_log10.c.s
+
+bid/bid128_log1p.obj: bid/bid128_log1p.c.obj
+.PHONY : bid/bid128_log1p.obj
+
+# target to build an object file
+bid/bid128_log1p.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.obj
+.PHONY : bid/bid128_log1p.c.obj
+
+bid/bid128_log1p.i: bid/bid128_log1p.c.i
+.PHONY : bid/bid128_log1p.i
+
+# target to preprocess a source file
+bid/bid128_log1p.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.i
+.PHONY : bid/bid128_log1p.c.i
+
+bid/bid128_log1p.s: bid/bid128_log1p.c.s
+.PHONY : bid/bid128_log1p.s
+
+# target to generate assembly for a file
+bid/bid128_log1p.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.s
+.PHONY : bid/bid128_log1p.c.s
+
+bid/bid128_log2.obj: bid/bid128_log2.c.obj
+.PHONY : bid/bid128_log2.obj
+
+# target to build an object file
+bid/bid128_log2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.obj
+.PHONY : bid/bid128_log2.c.obj
+
+bid/bid128_log2.i: bid/bid128_log2.c.i
+.PHONY : bid/bid128_log2.i
+
+# target to preprocess a source file
+bid/bid128_log2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.i
+.PHONY : bid/bid128_log2.c.i
+
+bid/bid128_log2.s: bid/bid128_log2.c.s
+.PHONY : bid/bid128_log2.s
+
+# target to generate assembly for a file
+bid/bid128_log2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.s
+.PHONY : bid/bid128_log2.c.s
+
+bid/bid128_logb.obj: bid/bid128_logb.c.obj
+.PHONY : bid/bid128_logb.obj
+
+# target to build an object file
+bid/bid128_logb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.obj
+.PHONY : bid/bid128_logb.c.obj
+
+bid/bid128_logb.i: bid/bid128_logb.c.i
+.PHONY : bid/bid128_logb.i
+
+# target to preprocess a source file
+bid/bid128_logb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.i
+.PHONY : bid/bid128_logb.c.i
+
+bid/bid128_logb.s: bid/bid128_logb.c.s
+.PHONY : bid/bid128_logb.s
+
+# target to generate assembly for a file
+bid/bid128_logb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.s
+.PHONY : bid/bid128_logb.c.s
+
+bid/bid128_logbd.obj: bid/bid128_logbd.c.obj
+.PHONY : bid/bid128_logbd.obj
+
+# target to build an object file
+bid/bid128_logbd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.obj
+.PHONY : bid/bid128_logbd.c.obj
+
+bid/bid128_logbd.i: bid/bid128_logbd.c.i
+.PHONY : bid/bid128_logbd.i
+
+# target to preprocess a source file
+bid/bid128_logbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.i
+.PHONY : bid/bid128_logbd.c.i
+
+bid/bid128_logbd.s: bid/bid128_logbd.c.s
+.PHONY : bid/bid128_logbd.s
+
+# target to generate assembly for a file
+bid/bid128_logbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.s
+.PHONY : bid/bid128_logbd.c.s
+
+bid/bid128_lrintd.obj: bid/bid128_lrintd.c.obj
+.PHONY : bid/bid128_lrintd.obj
+
+# target to build an object file
+bid/bid128_lrintd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.obj
+.PHONY : bid/bid128_lrintd.c.obj
+
+bid/bid128_lrintd.i: bid/bid128_lrintd.c.i
+.PHONY : bid/bid128_lrintd.i
+
+# target to preprocess a source file
+bid/bid128_lrintd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.i
+.PHONY : bid/bid128_lrintd.c.i
+
+bid/bid128_lrintd.s: bid/bid128_lrintd.c.s
+.PHONY : bid/bid128_lrintd.s
+
+# target to generate assembly for a file
+bid/bid128_lrintd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.s
+.PHONY : bid/bid128_lrintd.c.s
+
+bid/bid128_lround.obj: bid/bid128_lround.c.obj
+.PHONY : bid/bid128_lround.obj
+
+# target to build an object file
+bid/bid128_lround.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.obj
+.PHONY : bid/bid128_lround.c.obj
+
+bid/bid128_lround.i: bid/bid128_lround.c.i
+.PHONY : bid/bid128_lround.i
+
+# target to preprocess a source file
+bid/bid128_lround.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.i
+.PHONY : bid/bid128_lround.c.i
+
+bid/bid128_lround.s: bid/bid128_lround.c.s
+.PHONY : bid/bid128_lround.s
+
+# target to generate assembly for a file
+bid/bid128_lround.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.s
+.PHONY : bid/bid128_lround.c.s
+
+bid/bid128_minmax.obj: bid/bid128_minmax.c.obj
+.PHONY : bid/bid128_minmax.obj
+
+# target to build an object file
+bid/bid128_minmax.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.obj
+.PHONY : bid/bid128_minmax.c.obj
+
+bid/bid128_minmax.i: bid/bid128_minmax.c.i
+.PHONY : bid/bid128_minmax.i
+
+# target to preprocess a source file
+bid/bid128_minmax.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.i
+.PHONY : bid/bid128_minmax.c.i
+
+bid/bid128_minmax.s: bid/bid128_minmax.c.s
+.PHONY : bid/bid128_minmax.s
+
+# target to generate assembly for a file
+bid/bid128_minmax.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.s
+.PHONY : bid/bid128_minmax.c.s
+
+bid/bid128_modf.obj: bid/bid128_modf.c.obj
+.PHONY : bid/bid128_modf.obj
+
+# target to build an object file
+bid/bid128_modf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.obj
+.PHONY : bid/bid128_modf.c.obj
+
+bid/bid128_modf.i: bid/bid128_modf.c.i
+.PHONY : bid/bid128_modf.i
+
+# target to preprocess a source file
+bid/bid128_modf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.i
+.PHONY : bid/bid128_modf.c.i
+
+bid/bid128_modf.s: bid/bid128_modf.c.s
+.PHONY : bid/bid128_modf.s
+
+# target to generate assembly for a file
+bid/bid128_modf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.s
+.PHONY : bid/bid128_modf.c.s
+
+bid/bid128_mul.obj: bid/bid128_mul.c.obj
+.PHONY : bid/bid128_mul.obj
+
+# target to build an object file
+bid/bid128_mul.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.obj
+.PHONY : bid/bid128_mul.c.obj
+
+bid/bid128_mul.i: bid/bid128_mul.c.i
+.PHONY : bid/bid128_mul.i
+
+# target to preprocess a source file
+bid/bid128_mul.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.i
+.PHONY : bid/bid128_mul.c.i
+
+bid/bid128_mul.s: bid/bid128_mul.c.s
+.PHONY : bid/bid128_mul.s
+
+# target to generate assembly for a file
+bid/bid128_mul.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.s
+.PHONY : bid/bid128_mul.c.s
+
+bid/bid128_nearbyintd.obj: bid/bid128_nearbyintd.c.obj
+.PHONY : bid/bid128_nearbyintd.obj
+
+# target to build an object file
+bid/bid128_nearbyintd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.obj
+.PHONY : bid/bid128_nearbyintd.c.obj
+
+bid/bid128_nearbyintd.i: bid/bid128_nearbyintd.c.i
+.PHONY : bid/bid128_nearbyintd.i
+
+# target to preprocess a source file
+bid/bid128_nearbyintd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.i
+.PHONY : bid/bid128_nearbyintd.c.i
+
+bid/bid128_nearbyintd.s: bid/bid128_nearbyintd.c.s
+.PHONY : bid/bid128_nearbyintd.s
+
+# target to generate assembly for a file
+bid/bid128_nearbyintd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.s
+.PHONY : bid/bid128_nearbyintd.c.s
+
+bid/bid128_next.obj: bid/bid128_next.c.obj
+.PHONY : bid/bid128_next.obj
+
+# target to build an object file
+bid/bid128_next.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.obj
+.PHONY : bid/bid128_next.c.obj
+
+bid/bid128_next.i: bid/bid128_next.c.i
+.PHONY : bid/bid128_next.i
+
+# target to preprocess a source file
+bid/bid128_next.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.i
+.PHONY : bid/bid128_next.c.i
+
+bid/bid128_next.s: bid/bid128_next.c.s
+.PHONY : bid/bid128_next.s
+
+# target to generate assembly for a file
+bid/bid128_next.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.s
+.PHONY : bid/bid128_next.c.s
+
+bid/bid128_nexttowardd.obj: bid/bid128_nexttowardd.c.obj
+.PHONY : bid/bid128_nexttowardd.obj
+
+# target to build an object file
+bid/bid128_nexttowardd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.obj
+.PHONY : bid/bid128_nexttowardd.c.obj
+
+bid/bid128_nexttowardd.i: bid/bid128_nexttowardd.c.i
+.PHONY : bid/bid128_nexttowardd.i
+
+# target to preprocess a source file
+bid/bid128_nexttowardd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.i
+.PHONY : bid/bid128_nexttowardd.c.i
+
+bid/bid128_nexttowardd.s: bid/bid128_nexttowardd.c.s
+.PHONY : bid/bid128_nexttowardd.s
+
+# target to generate assembly for a file
+bid/bid128_nexttowardd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.s
+.PHONY : bid/bid128_nexttowardd.c.s
+
+bid/bid128_noncomp.obj: bid/bid128_noncomp.c.obj
+.PHONY : bid/bid128_noncomp.obj
+
+# target to build an object file
+bid/bid128_noncomp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.obj
+.PHONY : bid/bid128_noncomp.c.obj
+
+bid/bid128_noncomp.i: bid/bid128_noncomp.c.i
+.PHONY : bid/bid128_noncomp.i
+
+# target to preprocess a source file
+bid/bid128_noncomp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.i
+.PHONY : bid/bid128_noncomp.c.i
+
+bid/bid128_noncomp.s: bid/bid128_noncomp.c.s
+.PHONY : bid/bid128_noncomp.s
+
+# target to generate assembly for a file
+bid/bid128_noncomp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.s
+.PHONY : bid/bid128_noncomp.c.s
+
+bid/bid128_pow.obj: bid/bid128_pow.c.obj
+.PHONY : bid/bid128_pow.obj
+
+# target to build an object file
+bid/bid128_pow.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.obj
+.PHONY : bid/bid128_pow.c.obj
+
+bid/bid128_pow.i: bid/bid128_pow.c.i
+.PHONY : bid/bid128_pow.i
+
+# target to preprocess a source file
+bid/bid128_pow.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.i
+.PHONY : bid/bid128_pow.c.i
+
+bid/bid128_pow.s: bid/bid128_pow.c.s
+.PHONY : bid/bid128_pow.s
+
+# target to generate assembly for a file
+bid/bid128_pow.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.s
+.PHONY : bid/bid128_pow.c.s
+
+bid/bid128_quantexpd.obj: bid/bid128_quantexpd.c.obj
+.PHONY : bid/bid128_quantexpd.obj
+
+# target to build an object file
+bid/bid128_quantexpd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.obj
+.PHONY : bid/bid128_quantexpd.c.obj
+
+bid/bid128_quantexpd.i: bid/bid128_quantexpd.c.i
+.PHONY : bid/bid128_quantexpd.i
+
+# target to preprocess a source file
+bid/bid128_quantexpd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.i
+.PHONY : bid/bid128_quantexpd.c.i
+
+bid/bid128_quantexpd.s: bid/bid128_quantexpd.c.s
+.PHONY : bid/bid128_quantexpd.s
+
+# target to generate assembly for a file
+bid/bid128_quantexpd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.s
+.PHONY : bid/bid128_quantexpd.c.s
+
+bid/bid128_quantize.obj: bid/bid128_quantize.c.obj
+.PHONY : bid/bid128_quantize.obj
+
+# target to build an object file
+bid/bid128_quantize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.obj
+.PHONY : bid/bid128_quantize.c.obj
+
+bid/bid128_quantize.i: bid/bid128_quantize.c.i
+.PHONY : bid/bid128_quantize.i
+
+# target to preprocess a source file
+bid/bid128_quantize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.i
+.PHONY : bid/bid128_quantize.c.i
+
+bid/bid128_quantize.s: bid/bid128_quantize.c.s
+.PHONY : bid/bid128_quantize.s
+
+# target to generate assembly for a file
+bid/bid128_quantize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.s
+.PHONY : bid/bid128_quantize.c.s
+
+bid/bid128_quantumd.obj: bid/bid128_quantumd.c.obj
+.PHONY : bid/bid128_quantumd.obj
+
+# target to build an object file
+bid/bid128_quantumd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.obj
+.PHONY : bid/bid128_quantumd.c.obj
+
+bid/bid128_quantumd.i: bid/bid128_quantumd.c.i
+.PHONY : bid/bid128_quantumd.i
+
+# target to preprocess a source file
+bid/bid128_quantumd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.i
+.PHONY : bid/bid128_quantumd.c.i
+
+bid/bid128_quantumd.s: bid/bid128_quantumd.c.s
+.PHONY : bid/bid128_quantumd.s
+
+# target to generate assembly for a file
+bid/bid128_quantumd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.s
+.PHONY : bid/bid128_quantumd.c.s
+
+bid/bid128_rem.obj: bid/bid128_rem.c.obj
+.PHONY : bid/bid128_rem.obj
+
+# target to build an object file
+bid/bid128_rem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.obj
+.PHONY : bid/bid128_rem.c.obj
+
+bid/bid128_rem.i: bid/bid128_rem.c.i
+.PHONY : bid/bid128_rem.i
+
+# target to preprocess a source file
+bid/bid128_rem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.i
+.PHONY : bid/bid128_rem.c.i
+
+bid/bid128_rem.s: bid/bid128_rem.c.s
+.PHONY : bid/bid128_rem.s
+
+# target to generate assembly for a file
+bid/bid128_rem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.s
+.PHONY : bid/bid128_rem.c.s
+
+bid/bid128_round_integral.obj: bid/bid128_round_integral.c.obj
+.PHONY : bid/bid128_round_integral.obj
+
+# target to build an object file
+bid/bid128_round_integral.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.obj
+.PHONY : bid/bid128_round_integral.c.obj
+
+bid/bid128_round_integral.i: bid/bid128_round_integral.c.i
+.PHONY : bid/bid128_round_integral.i
+
+# target to preprocess a source file
+bid/bid128_round_integral.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.i
+.PHONY : bid/bid128_round_integral.c.i
+
+bid/bid128_round_integral.s: bid/bid128_round_integral.c.s
+.PHONY : bid/bid128_round_integral.s
+
+# target to generate assembly for a file
+bid/bid128_round_integral.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.s
+.PHONY : bid/bid128_round_integral.c.s
+
+bid/bid128_scalb.obj: bid/bid128_scalb.c.obj
+.PHONY : bid/bid128_scalb.obj
+
+# target to build an object file
+bid/bid128_scalb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.obj
+.PHONY : bid/bid128_scalb.c.obj
+
+bid/bid128_scalb.i: bid/bid128_scalb.c.i
+.PHONY : bid/bid128_scalb.i
+
+# target to preprocess a source file
+bid/bid128_scalb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.i
+.PHONY : bid/bid128_scalb.c.i
+
+bid/bid128_scalb.s: bid/bid128_scalb.c.s
+.PHONY : bid/bid128_scalb.s
+
+# target to generate assembly for a file
+bid/bid128_scalb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.s
+.PHONY : bid/bid128_scalb.c.s
+
+bid/bid128_scalbl.obj: bid/bid128_scalbl.c.obj
+.PHONY : bid/bid128_scalbl.obj
+
+# target to build an object file
+bid/bid128_scalbl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.obj
+.PHONY : bid/bid128_scalbl.c.obj
+
+bid/bid128_scalbl.i: bid/bid128_scalbl.c.i
+.PHONY : bid/bid128_scalbl.i
+
+# target to preprocess a source file
+bid/bid128_scalbl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.i
+.PHONY : bid/bid128_scalbl.c.i
+
+bid/bid128_scalbl.s: bid/bid128_scalbl.c.s
+.PHONY : bid/bid128_scalbl.s
+
+# target to generate assembly for a file
+bid/bid128_scalbl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.s
+.PHONY : bid/bid128_scalbl.c.s
+
+bid/bid128_sin.obj: bid/bid128_sin.c.obj
+.PHONY : bid/bid128_sin.obj
+
+# target to build an object file
+bid/bid128_sin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.obj
+.PHONY : bid/bid128_sin.c.obj
+
+bid/bid128_sin.i: bid/bid128_sin.c.i
+.PHONY : bid/bid128_sin.i
+
+# target to preprocess a source file
+bid/bid128_sin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.i
+.PHONY : bid/bid128_sin.c.i
+
+bid/bid128_sin.s: bid/bid128_sin.c.s
+.PHONY : bid/bid128_sin.s
+
+# target to generate assembly for a file
+bid/bid128_sin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.s
+.PHONY : bid/bid128_sin.c.s
+
+bid/bid128_sinh.obj: bid/bid128_sinh.c.obj
+.PHONY : bid/bid128_sinh.obj
+
+# target to build an object file
+bid/bid128_sinh.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.obj
+.PHONY : bid/bid128_sinh.c.obj
+
+bid/bid128_sinh.i: bid/bid128_sinh.c.i
+.PHONY : bid/bid128_sinh.i
+
+# target to preprocess a source file
+bid/bid128_sinh.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.i
+.PHONY : bid/bid128_sinh.c.i
+
+bid/bid128_sinh.s: bid/bid128_sinh.c.s
+.PHONY : bid/bid128_sinh.s
+
+# target to generate assembly for a file
+bid/bid128_sinh.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.s
+.PHONY : bid/bid128_sinh.c.s
+
+bid/bid128_sqrt.obj: bid/bid128_sqrt.c.obj
+.PHONY : bid/bid128_sqrt.obj
+
+# target to build an object file
+bid/bid128_sqrt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.obj
+.PHONY : bid/bid128_sqrt.c.obj
+
+bid/bid128_sqrt.i: bid/bid128_sqrt.c.i
+.PHONY : bid/bid128_sqrt.i
+
+# target to preprocess a source file
+bid/bid128_sqrt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.i
+.PHONY : bid/bid128_sqrt.c.i
+
+bid/bid128_sqrt.s: bid/bid128_sqrt.c.s
+.PHONY : bid/bid128_sqrt.s
+
+# target to generate assembly for a file
+bid/bid128_sqrt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.s
+.PHONY : bid/bid128_sqrt.c.s
+
+bid/bid128_string.obj: bid/bid128_string.c.obj
+.PHONY : bid/bid128_string.obj
+
+# target to build an object file
+bid/bid128_string.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.obj
+.PHONY : bid/bid128_string.c.obj
+
+bid/bid128_string.i: bid/bid128_string.c.i
+.PHONY : bid/bid128_string.i
+
+# target to preprocess a source file
+bid/bid128_string.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.i
+.PHONY : bid/bid128_string.c.i
+
+bid/bid128_string.s: bid/bid128_string.c.s
+.PHONY : bid/bid128_string.s
+
+# target to generate assembly for a file
+bid/bid128_string.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.s
+.PHONY : bid/bid128_string.c.s
+
+bid/bid128_tan.obj: bid/bid128_tan.c.obj
+.PHONY : bid/bid128_tan.obj
+
+# target to build an object file
+bid/bid128_tan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.obj
+.PHONY : bid/bid128_tan.c.obj
+
+bid/bid128_tan.i: bid/bid128_tan.c.i
+.PHONY : bid/bid128_tan.i
+
+# target to preprocess a source file
+bid/bid128_tan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.i
+.PHONY : bid/bid128_tan.c.i
+
+bid/bid128_tan.s: bid/bid128_tan.c.s
+.PHONY : bid/bid128_tan.s
+
+# target to generate assembly for a file
+bid/bid128_tan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.s
+.PHONY : bid/bid128_tan.c.s
+
+bid/bid128_tanh.obj: bid/bid128_tanh.c.obj
+.PHONY : bid/bid128_tanh.obj
+
+# target to build an object file
+bid/bid128_tanh.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.obj
+.PHONY : bid/bid128_tanh.c.obj
+
+bid/bid128_tanh.i: bid/bid128_tanh.c.i
+.PHONY : bid/bid128_tanh.i
+
+# target to preprocess a source file
+bid/bid128_tanh.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.i
+.PHONY : bid/bid128_tanh.c.i
+
+bid/bid128_tanh.s: bid/bid128_tanh.c.s
+.PHONY : bid/bid128_tanh.s
+
+# target to generate assembly for a file
+bid/bid128_tanh.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.s
+.PHONY : bid/bid128_tanh.c.s
+
+bid/bid128_tgamma.obj: bid/bid128_tgamma.c.obj
+.PHONY : bid/bid128_tgamma.obj
+
+# target to build an object file
+bid/bid128_tgamma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.obj
+.PHONY : bid/bid128_tgamma.c.obj
+
+bid/bid128_tgamma.i: bid/bid128_tgamma.c.i
+.PHONY : bid/bid128_tgamma.i
+
+# target to preprocess a source file
+bid/bid128_tgamma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.i
+.PHONY : bid/bid128_tgamma.c.i
+
+bid/bid128_tgamma.s: bid/bid128_tgamma.c.s
+.PHONY : bid/bid128_tgamma.s
+
+# target to generate assembly for a file
+bid/bid128_tgamma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.s
+.PHONY : bid/bid128_tgamma.c.s
+
+bid/bid128_to_int16.obj: bid/bid128_to_int16.c.obj
+.PHONY : bid/bid128_to_int16.obj
+
+# target to build an object file
+bid/bid128_to_int16.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.obj
+.PHONY : bid/bid128_to_int16.c.obj
+
+bid/bid128_to_int16.i: bid/bid128_to_int16.c.i
+.PHONY : bid/bid128_to_int16.i
+
+# target to preprocess a source file
+bid/bid128_to_int16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.i
+.PHONY : bid/bid128_to_int16.c.i
+
+bid/bid128_to_int16.s: bid/bid128_to_int16.c.s
+.PHONY : bid/bid128_to_int16.s
+
+# target to generate assembly for a file
+bid/bid128_to_int16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.s
+.PHONY : bid/bid128_to_int16.c.s
+
+bid/bid128_to_int32.obj: bid/bid128_to_int32.c.obj
+.PHONY : bid/bid128_to_int32.obj
+
+# target to build an object file
+bid/bid128_to_int32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.obj
+.PHONY : bid/bid128_to_int32.c.obj
+
+bid/bid128_to_int32.i: bid/bid128_to_int32.c.i
+.PHONY : bid/bid128_to_int32.i
+
+# target to preprocess a source file
+bid/bid128_to_int32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.i
+.PHONY : bid/bid128_to_int32.c.i
+
+bid/bid128_to_int32.s: bid/bid128_to_int32.c.s
+.PHONY : bid/bid128_to_int32.s
+
+# target to generate assembly for a file
+bid/bid128_to_int32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.s
+.PHONY : bid/bid128_to_int32.c.s
+
+bid/bid128_to_int64.obj: bid/bid128_to_int64.c.obj
+.PHONY : bid/bid128_to_int64.obj
+
+# target to build an object file
+bid/bid128_to_int64.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.obj
+.PHONY : bid/bid128_to_int64.c.obj
+
+bid/bid128_to_int64.i: bid/bid128_to_int64.c.i
+.PHONY : bid/bid128_to_int64.i
+
+# target to preprocess a source file
+bid/bid128_to_int64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.i
+.PHONY : bid/bid128_to_int64.c.i
+
+bid/bid128_to_int64.s: bid/bid128_to_int64.c.s
+.PHONY : bid/bid128_to_int64.s
+
+# target to generate assembly for a file
+bid/bid128_to_int64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.s
+.PHONY : bid/bid128_to_int64.c.s
+
+bid/bid128_to_int8.obj: bid/bid128_to_int8.c.obj
+.PHONY : bid/bid128_to_int8.obj
+
+# target to build an object file
+bid/bid128_to_int8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.obj
+.PHONY : bid/bid128_to_int8.c.obj
+
+bid/bid128_to_int8.i: bid/bid128_to_int8.c.i
+.PHONY : bid/bid128_to_int8.i
+
+# target to preprocess a source file
+bid/bid128_to_int8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.i
+.PHONY : bid/bid128_to_int8.c.i
+
+bid/bid128_to_int8.s: bid/bid128_to_int8.c.s
+.PHONY : bid/bid128_to_int8.s
+
+# target to generate assembly for a file
+bid/bid128_to_int8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.s
+.PHONY : bid/bid128_to_int8.c.s
+
+bid/bid128_to_uint16.obj: bid/bid128_to_uint16.c.obj
+.PHONY : bid/bid128_to_uint16.obj
+
+# target to build an object file
+bid/bid128_to_uint16.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.obj
+.PHONY : bid/bid128_to_uint16.c.obj
+
+bid/bid128_to_uint16.i: bid/bid128_to_uint16.c.i
+.PHONY : bid/bid128_to_uint16.i
+
+# target to preprocess a source file
+bid/bid128_to_uint16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.i
+.PHONY : bid/bid128_to_uint16.c.i
+
+bid/bid128_to_uint16.s: bid/bid128_to_uint16.c.s
+.PHONY : bid/bid128_to_uint16.s
+
+# target to generate assembly for a file
+bid/bid128_to_uint16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.s
+.PHONY : bid/bid128_to_uint16.c.s
+
+bid/bid128_to_uint32.obj: bid/bid128_to_uint32.c.obj
+.PHONY : bid/bid128_to_uint32.obj
+
+# target to build an object file
+bid/bid128_to_uint32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.obj
+.PHONY : bid/bid128_to_uint32.c.obj
+
+bid/bid128_to_uint32.i: bid/bid128_to_uint32.c.i
+.PHONY : bid/bid128_to_uint32.i
+
+# target to preprocess a source file
+bid/bid128_to_uint32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.i
+.PHONY : bid/bid128_to_uint32.c.i
+
+bid/bid128_to_uint32.s: bid/bid128_to_uint32.c.s
+.PHONY : bid/bid128_to_uint32.s
+
+# target to generate assembly for a file
+bid/bid128_to_uint32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.s
+.PHONY : bid/bid128_to_uint32.c.s
+
+bid/bid128_to_uint64.obj: bid/bid128_to_uint64.c.obj
+.PHONY : bid/bid128_to_uint64.obj
+
+# target to build an object file
+bid/bid128_to_uint64.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.obj
+.PHONY : bid/bid128_to_uint64.c.obj
+
+bid/bid128_to_uint64.i: bid/bid128_to_uint64.c.i
+.PHONY : bid/bid128_to_uint64.i
+
+# target to preprocess a source file
+bid/bid128_to_uint64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.i
+.PHONY : bid/bid128_to_uint64.c.i
+
+bid/bid128_to_uint64.s: bid/bid128_to_uint64.c.s
+.PHONY : bid/bid128_to_uint64.s
+
+# target to generate assembly for a file
+bid/bid128_to_uint64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.s
+.PHONY : bid/bid128_to_uint64.c.s
+
+bid/bid128_to_uint8.obj: bid/bid128_to_uint8.c.obj
+.PHONY : bid/bid128_to_uint8.obj
+
+# target to build an object file
+bid/bid128_to_uint8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.obj
+.PHONY : bid/bid128_to_uint8.c.obj
+
+bid/bid128_to_uint8.i: bid/bid128_to_uint8.c.i
+.PHONY : bid/bid128_to_uint8.i
+
+# target to preprocess a source file
+bid/bid128_to_uint8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.i
+.PHONY : bid/bid128_to_uint8.c.i
+
+bid/bid128_to_uint8.s: bid/bid128_to_uint8.c.s
+.PHONY : bid/bid128_to_uint8.s
+
+# target to generate assembly for a file
+bid/bid128_to_uint8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.s
+.PHONY : bid/bid128_to_uint8.c.s
+
+bid/bid_convert_data.obj: bid/bid_convert_data.c.obj
+.PHONY : bid/bid_convert_data.obj
+
+# target to build an object file
+bid/bid_convert_data.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.obj
+.PHONY : bid/bid_convert_data.c.obj
+
+bid/bid_convert_data.i: bid/bid_convert_data.c.i
+.PHONY : bid/bid_convert_data.i
+
+# target to preprocess a source file
+bid/bid_convert_data.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.i
+.PHONY : bid/bid_convert_data.c.i
+
+bid/bid_convert_data.s: bid/bid_convert_data.c.s
+.PHONY : bid/bid_convert_data.s
+
+# target to generate assembly for a file
+bid/bid_convert_data.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.s
+.PHONY : bid/bid_convert_data.c.s
+
+bid/bid_decimal_data.obj: bid/bid_decimal_data.c.obj
+.PHONY : bid/bid_decimal_data.obj
+
+# target to build an object file
+bid/bid_decimal_data.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.obj
+.PHONY : bid/bid_decimal_data.c.obj
+
+bid/bid_decimal_data.i: bid/bid_decimal_data.c.i
+.PHONY : bid/bid_decimal_data.i
+
+# target to preprocess a source file
+bid/bid_decimal_data.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.i
+.PHONY : bid/bid_decimal_data.c.i
+
+bid/bid_decimal_data.s: bid/bid_decimal_data.c.s
+.PHONY : bid/bid_decimal_data.s
+
+# target to generate assembly for a file
+bid/bid_decimal_data.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.s
+.PHONY : bid/bid_decimal_data.c.s
+
+bid/bid_from_int.obj: bid/bid_from_int.c.obj
+.PHONY : bid/bid_from_int.obj
+
+# target to build an object file
+bid/bid_from_int.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.obj
+.PHONY : bid/bid_from_int.c.obj
+
+bid/bid_from_int.i: bid/bid_from_int.c.i
+.PHONY : bid/bid_from_int.i
+
+# target to preprocess a source file
+bid/bid_from_int.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.i
+.PHONY : bid/bid_from_int.c.i
+
+bid/bid_from_int.s: bid/bid_from_int.c.s
+.PHONY : bid/bid_from_int.s
+
+# target to generate assembly for a file
+bid/bid_from_int.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hd36106_replacement.dir/build.make CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.s
+.PHONY : bid/bid_from_int.c.s
+
 fx201p_execution.obj: fx201p_execution.c.obj
 .PHONY : fx201p_execution.obj
 
@@ -1944,6 +3672,222 @@ help:
 	@echo "... pico_sd_card_sd_card_pio_h"
 	@echo "... bs2_default"
 	@echo "... hd36106_replacement"
+	@echo "... bid/bid128.obj"
+	@echo "... bid/bid128.i"
+	@echo "... bid/bid128.s"
+	@echo "... bid/bid128_2_str_tables.obj"
+	@echo "... bid/bid128_2_str_tables.i"
+	@echo "... bid/bid128_2_str_tables.s"
+	@echo "... bid/bid128_acos.obj"
+	@echo "... bid/bid128_acos.i"
+	@echo "... bid/bid128_acos.s"
+	@echo "... bid/bid128_acosh.obj"
+	@echo "... bid/bid128_acosh.i"
+	@echo "... bid/bid128_acosh.s"
+	@echo "... bid/bid128_add.obj"
+	@echo "... bid/bid128_add.i"
+	@echo "... bid/bid128_add.s"
+	@echo "... bid/bid128_asin.obj"
+	@echo "... bid/bid128_asin.i"
+	@echo "... bid/bid128_asin.s"
+	@echo "... bid/bid128_asinh.obj"
+	@echo "... bid/bid128_asinh.i"
+	@echo "... bid/bid128_asinh.s"
+	@echo "... bid/bid128_atan.obj"
+	@echo "... bid/bid128_atan.i"
+	@echo "... bid/bid128_atan.s"
+	@echo "... bid/bid128_atan2.obj"
+	@echo "... bid/bid128_atan2.i"
+	@echo "... bid/bid128_atan2.s"
+	@echo "... bid/bid128_atanh.obj"
+	@echo "... bid/bid128_atanh.i"
+	@echo "... bid/bid128_atanh.s"
+	@echo "... bid/bid128_cbrt.obj"
+	@echo "... bid/bid128_cbrt.i"
+	@echo "... bid/bid128_cbrt.s"
+	@echo "... bid/bid128_compare.obj"
+	@echo "... bid/bid128_compare.i"
+	@echo "... bid/bid128_compare.s"
+	@echo "... bid/bid128_cos.obj"
+	@echo "... bid/bid128_cos.i"
+	@echo "... bid/bid128_cos.s"
+	@echo "... bid/bid128_cosh.obj"
+	@echo "... bid/bid128_cosh.i"
+	@echo "... bid/bid128_cosh.s"
+	@echo "... bid/bid128_div.obj"
+	@echo "... bid/bid128_div.i"
+	@echo "... bid/bid128_div.s"
+	@echo "... bid/bid128_erf.obj"
+	@echo "... bid/bid128_erf.i"
+	@echo "... bid/bid128_erf.s"
+	@echo "... bid/bid128_erfc.obj"
+	@echo "... bid/bid128_erfc.i"
+	@echo "... bid/bid128_erfc.s"
+	@echo "... bid/bid128_exp.obj"
+	@echo "... bid/bid128_exp.i"
+	@echo "... bid/bid128_exp.s"
+	@echo "... bid/bid128_exp10.obj"
+	@echo "... bid/bid128_exp10.i"
+	@echo "... bid/bid128_exp10.s"
+	@echo "... bid/bid128_exp2.obj"
+	@echo "... bid/bid128_exp2.i"
+	@echo "... bid/bid128_exp2.s"
+	@echo "... bid/bid128_expm1.obj"
+	@echo "... bid/bid128_expm1.i"
+	@echo "... bid/bid128_expm1.s"
+	@echo "... bid/bid128_fdimd.obj"
+	@echo "... bid/bid128_fdimd.i"
+	@echo "... bid/bid128_fdimd.s"
+	@echo "... bid/bid128_fma.obj"
+	@echo "... bid/bid128_fma.i"
+	@echo "... bid/bid128_fma.s"
+	@echo "... bid/bid128_fmod.obj"
+	@echo "... bid/bid128_fmod.i"
+	@echo "... bid/bid128_fmod.s"
+	@echo "... bid/bid128_frexp.obj"
+	@echo "... bid/bid128_frexp.i"
+	@echo "... bid/bid128_frexp.s"
+	@echo "... bid/bid128_hypot.obj"
+	@echo "... bid/bid128_hypot.i"
+	@echo "... bid/bid128_hypot.s"
+	@echo "... bid/bid128_ldexp.obj"
+	@echo "... bid/bid128_ldexp.i"
+	@echo "... bid/bid128_ldexp.s"
+	@echo "... bid/bid128_lgamma.obj"
+	@echo "... bid/bid128_lgamma.i"
+	@echo "... bid/bid128_lgamma.s"
+	@echo "... bid/bid128_llquantexpd.obj"
+	@echo "... bid/bid128_llquantexpd.i"
+	@echo "... bid/bid128_llquantexpd.s"
+	@echo "... bid/bid128_llrintd.obj"
+	@echo "... bid/bid128_llrintd.i"
+	@echo "... bid/bid128_llrintd.s"
+	@echo "... bid/bid128_llround.obj"
+	@echo "... bid/bid128_llround.i"
+	@echo "... bid/bid128_llround.s"
+	@echo "... bid/bid128_log.obj"
+	@echo "... bid/bid128_log.i"
+	@echo "... bid/bid128_log.s"
+	@echo "... bid/bid128_log10.obj"
+	@echo "... bid/bid128_log10.i"
+	@echo "... bid/bid128_log10.s"
+	@echo "... bid/bid128_log1p.obj"
+	@echo "... bid/bid128_log1p.i"
+	@echo "... bid/bid128_log1p.s"
+	@echo "... bid/bid128_log2.obj"
+	@echo "... bid/bid128_log2.i"
+	@echo "... bid/bid128_log2.s"
+	@echo "... bid/bid128_logb.obj"
+	@echo "... bid/bid128_logb.i"
+	@echo "... bid/bid128_logb.s"
+	@echo "... bid/bid128_logbd.obj"
+	@echo "... bid/bid128_logbd.i"
+	@echo "... bid/bid128_logbd.s"
+	@echo "... bid/bid128_lrintd.obj"
+	@echo "... bid/bid128_lrintd.i"
+	@echo "... bid/bid128_lrintd.s"
+	@echo "... bid/bid128_lround.obj"
+	@echo "... bid/bid128_lround.i"
+	@echo "... bid/bid128_lround.s"
+	@echo "... bid/bid128_minmax.obj"
+	@echo "... bid/bid128_minmax.i"
+	@echo "... bid/bid128_minmax.s"
+	@echo "... bid/bid128_modf.obj"
+	@echo "... bid/bid128_modf.i"
+	@echo "... bid/bid128_modf.s"
+	@echo "... bid/bid128_mul.obj"
+	@echo "... bid/bid128_mul.i"
+	@echo "... bid/bid128_mul.s"
+	@echo "... bid/bid128_nearbyintd.obj"
+	@echo "... bid/bid128_nearbyintd.i"
+	@echo "... bid/bid128_nearbyintd.s"
+	@echo "... bid/bid128_next.obj"
+	@echo "... bid/bid128_next.i"
+	@echo "... bid/bid128_next.s"
+	@echo "... bid/bid128_nexttowardd.obj"
+	@echo "... bid/bid128_nexttowardd.i"
+	@echo "... bid/bid128_nexttowardd.s"
+	@echo "... bid/bid128_noncomp.obj"
+	@echo "... bid/bid128_noncomp.i"
+	@echo "... bid/bid128_noncomp.s"
+	@echo "... bid/bid128_pow.obj"
+	@echo "... bid/bid128_pow.i"
+	@echo "... bid/bid128_pow.s"
+	@echo "... bid/bid128_quantexpd.obj"
+	@echo "... bid/bid128_quantexpd.i"
+	@echo "... bid/bid128_quantexpd.s"
+	@echo "... bid/bid128_quantize.obj"
+	@echo "... bid/bid128_quantize.i"
+	@echo "... bid/bid128_quantize.s"
+	@echo "... bid/bid128_quantumd.obj"
+	@echo "... bid/bid128_quantumd.i"
+	@echo "... bid/bid128_quantumd.s"
+	@echo "... bid/bid128_rem.obj"
+	@echo "... bid/bid128_rem.i"
+	@echo "... bid/bid128_rem.s"
+	@echo "... bid/bid128_round_integral.obj"
+	@echo "... bid/bid128_round_integral.i"
+	@echo "... bid/bid128_round_integral.s"
+	@echo "... bid/bid128_scalb.obj"
+	@echo "... bid/bid128_scalb.i"
+	@echo "... bid/bid128_scalb.s"
+	@echo "... bid/bid128_scalbl.obj"
+	@echo "... bid/bid128_scalbl.i"
+	@echo "... bid/bid128_scalbl.s"
+	@echo "... bid/bid128_sin.obj"
+	@echo "... bid/bid128_sin.i"
+	@echo "... bid/bid128_sin.s"
+	@echo "... bid/bid128_sinh.obj"
+	@echo "... bid/bid128_sinh.i"
+	@echo "... bid/bid128_sinh.s"
+	@echo "... bid/bid128_sqrt.obj"
+	@echo "... bid/bid128_sqrt.i"
+	@echo "... bid/bid128_sqrt.s"
+	@echo "... bid/bid128_string.obj"
+	@echo "... bid/bid128_string.i"
+	@echo "... bid/bid128_string.s"
+	@echo "... bid/bid128_tan.obj"
+	@echo "... bid/bid128_tan.i"
+	@echo "... bid/bid128_tan.s"
+	@echo "... bid/bid128_tanh.obj"
+	@echo "... bid/bid128_tanh.i"
+	@echo "... bid/bid128_tanh.s"
+	@echo "... bid/bid128_tgamma.obj"
+	@echo "... bid/bid128_tgamma.i"
+	@echo "... bid/bid128_tgamma.s"
+	@echo "... bid/bid128_to_int16.obj"
+	@echo "... bid/bid128_to_int16.i"
+	@echo "... bid/bid128_to_int16.s"
+	@echo "... bid/bid128_to_int32.obj"
+	@echo "... bid/bid128_to_int32.i"
+	@echo "... bid/bid128_to_int32.s"
+	@echo "... bid/bid128_to_int64.obj"
+	@echo "... bid/bid128_to_int64.i"
+	@echo "... bid/bid128_to_int64.s"
+	@echo "... bid/bid128_to_int8.obj"
+	@echo "... bid/bid128_to_int8.i"
+	@echo "... bid/bid128_to_int8.s"
+	@echo "... bid/bid128_to_uint16.obj"
+	@echo "... bid/bid128_to_uint16.i"
+	@echo "... bid/bid128_to_uint16.s"
+	@echo "... bid/bid128_to_uint32.obj"
+	@echo "... bid/bid128_to_uint32.i"
+	@echo "... bid/bid128_to_uint32.s"
+	@echo "... bid/bid128_to_uint64.obj"
+	@echo "... bid/bid128_to_uint64.i"
+	@echo "... bid/bid128_to_uint64.s"
+	@echo "... bid/bid128_to_uint8.obj"
+	@echo "... bid/bid128_to_uint8.i"
+	@echo "... bid/bid128_to_uint8.s"
+	@echo "... bid/bid_convert_data.obj"
+	@echo "... bid/bid_convert_data.i"
+	@echo "... bid/bid_convert_data.s"
+	@echo "... bid/bid_decimal_data.obj"
+	@echo "... bid/bid_decimal_data.i"
+	@echo "... bid/bid_decimal_data.s"
+	@echo "... bid/bid_from_int.obj"
+	@echo "... bid/bid_from_int.i"
+	@echo "... bid/bid_from_int.s"
 	@echo "... fx201p_execution.obj"
 	@echo "... fx201p_execution.i"
 	@echo "... fx201p_execution.s"

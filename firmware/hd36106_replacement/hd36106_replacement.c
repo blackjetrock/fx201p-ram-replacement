@@ -31,7 +31,15 @@
 #include "pico/multicore.h"
 #include "pico/bootrom.h"
 
+#define DECIMAL_CALL_BY_REFERENCE 0
+
 #include "fx201p.h"
+
+#include "bid/bid_conf.h"
+#include "bid/bid_functions.h"
+  
+#include "bid/num.h"
+#include "bid/bid_wrap_names.h"
 
 // Single shot trae, don't repeatedly capture data
 #define SINGLE_SHOT     0
@@ -48,6 +56,7 @@
 //
 // Command codes
 //
+////////////////////////////////////////////////////////////////////////////////
 
 #define CMD_CLR      0x94          // Zero all
 #define CMD_CLR_M    0x95          // Zero memories
@@ -74,7 +83,7 @@
 
 const uint CAPTURE_PIN_BASE = 0;
 const uint CAPTURE_PIN_COUNT = 32;
-const uint CAPTURE_N_SAMPLES = 3000;
+const uint CAPTURE_N_SAMPLES = 100;
 
 #define CLOCK_DIV  30.0f
 
@@ -143,7 +152,7 @@ char text_parameter[TEXT_PARAMETER_LEN+1] = "";
 ////////////////////////////////////////////////////////////////////////////////
 //
 
-#define NUM_BUS_T  1500
+#define NUM_BUS_T  100
 
 int queue_overflow = 0;
 
@@ -174,7 +183,7 @@ uint64_t douthi = 0;
 volatile int stopped = 0;
 
 #define TRACE_BIT  7
-#define NUM_TRACE_ENTRIES  2000
+#define NUM_TRACE_ENTRIES  20
 volatile uint8_t exec_trace_address[NUM_TRACE_ENTRIES];
 volatile uint8_t exec_trace_data[NUM_TRACE_ENTRIES];
 volatile uint8_t exec_trace_flags[NUM_TRACE_ENTRIES];
@@ -257,6 +266,7 @@ double mem_to_dbl(uint8_t *m);
 char *mem_to_str(uint8_t *m);
 void dbl_to_mem(double value, uint8_t *m);
 void print_keystroke_to_buffer(int byte, int no_lf);
+void  print_gpio_functions(void);
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -997,6 +1007,40 @@ void cli_boot_mass(void)
   reset_usb_boot(0,0);
 }
 
+void cli_bcd_test(void)
+{
+  // Perform some BCD calculations to test the BCD library
+    num_t num_zero;
+num_t num_one;
+num_t num_10;
+num_t num_pi;
+ num_t num_a;
+ num_t num_b;
+ num_t num_c;
+ 
+  int x = 0;
+  num_zero = num_from_int32(x);
+  x=1;
+  num_one = num_from_int32(x);
+  x=10;
+  num_10 = num_from_int32(x);
+  x=7;
+  num_a = num_from_int32(x);
+  x = 2;
+  num_c = num_from_int32(x);
+  
+  num_b = num_div( num_one, num_a, 0, &my_fpsf);
+  
+  char nstr[128];
+  num_to_string(nstr, num_b, &my_fpsf);
+  printf("\nN = %s", nstr);
+  
+  num_a = num_pow(num_b, num_c, 0, &my_fpsf);
+
+  num_to_string(nstr, num_a, &my_fpsf);
+  printf("\nN = %s", nstr);
+}
+
 // Another digit pressed, update the parameter variable
 void cli_digit(void)
 {
@@ -1437,6 +1481,11 @@ SERIAL_COMMAND serial_cmds[] =
     cli_start_tracing,
    },
    {
+    'T',
+    "Test BCD",
+    cli_bcd_test,
+   },
+   {
     '=',
     "Display trace",
     cli_display_trace,
@@ -1470,6 +1519,11 @@ SERIAL_COMMAND serial_cmds[] =
     'W',
     "Write Byte",
     cli_write_byte,
+   },
+   {
+    '<',
+    "Display GPIO Functions",
+    print_gpio_functions,
    },
    {
     '_',
@@ -1858,11 +1912,21 @@ void process_commands(void)
 
 ////////////////////////////////////////////////////////////////////////////////
 
+void  print_gpio_functions(void)
+{
+  for(int i=0; i<32; i++)
+    {
+      printf("\n%02d: %d", i, gpio_get_function(i));
+    }
+  printf("\n");
+}
+
 
 int main()
 {
   int gpio_states;
-  
+
+
   
   ////////////////////////////////////////////////////////////////////////////////
   //
@@ -1885,6 +1949,8 @@ int main()
   set_sys_clock_khz( OVERCLOCK, 1 );
 
   stdio_init_all();
+
+  print_gpio_functions();
   
   // All GPIOs inputs
   
@@ -1906,14 +1972,19 @@ int main()
   set_gpio_input(26);
   set_gpio_input(27);
   set_gpio_input(28);
-
+  
   // Core 1 captures data and sends transactions to core 0 which
   // sends them over USB
   multicore_launch_core1(core1_main);
 
   sleep_ms(2000);
 
-  printf("\nHD36106 Replacement\n");
+  printf("\n");
+  printf("\n***********************");
+  printf("\n* HD36106 Replacement *");
+  printf("\n***********************");
+  printf("\n");
+
 
   // Load slot 0 at startup
   load_ram(0, DO_MP_BOTH);

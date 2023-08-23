@@ -97,10 +97,1018 @@ CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/fx201p_execution.c -o CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.s
 
+CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.obj: ../bid/bid_from_int.c
+CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_from_int.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_from_int.c > CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_from_int.c -o CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.obj: ../bid/bid_decimal_data.c
+CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_decimal_data.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_decimal_data.c > CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_decimal_data.c -o CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.obj: ../bid/bid_convert_data.c
+CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_convert_data.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_convert_data.c > CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_convert_data.c -o CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.obj: ../bid/bid128_2_str_tables.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_2_str_tables.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_2_str_tables.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_2_str_tables.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.obj: ../bid/bid128_acos.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_acos.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_acos.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_acos.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.obj: ../bid/bid128_acosh.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_acosh.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_acosh.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_acosh.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.obj: ../bid/bid128_add.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_add.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_add.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_add.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.obj: ../bid/bid128_asin.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_asin.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_asin.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_asin.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.obj: ../bid/bid128_asinh.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_asinh.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_asinh.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_asinh.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.obj: ../bid/bid128_atan2.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_atan2.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_atan2.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_atan2.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.obj: ../bid/bid128_atan.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_atan.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_atan.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_atan.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.obj: ../bid/bid128_atanh.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_atanh.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_atanh.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_atanh.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128.c.obj: ../bid/bid128.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128.c > CMakeFiles/hd36106_replacement.dir/bid/bid128.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.obj: ../bid/bid128_cbrt.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_cbrt.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_cbrt.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_cbrt.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.obj: ../bid/bid128_compare.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_compare.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_compare.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_compare.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.obj: ../bid/bid128_cos.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_cos.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_cos.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_cos.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.obj: ../bid/bid128_cosh.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_cosh.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_cosh.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_cosh.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.obj: ../bid/bid128_div.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_div.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_div.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_div.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.obj: ../bid/bid128_erf.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_erf.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_erf.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_erf.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.obj: ../bid/bid128_erfc.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_erfc.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_erfc.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_erfc.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.obj: ../bid/bid128_exp10.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_exp10.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_exp10.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_exp10.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.obj: ../bid/bid128_exp2.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_exp2.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_exp2.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_exp2.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.obj: ../bid/bid128_exp.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_exp.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_exp.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_exp.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.obj: ../bid/bid128_expm1.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_expm1.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_expm1.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_expm1.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.obj: ../bid/bid128_fdimd.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_fdimd.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_fdimd.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_fdimd.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.obj: ../bid/bid128_fma.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_fma.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_fma.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_fma.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.obj: ../bid/bid128_fmod.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_fmod.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_fmod.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_fmod.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.obj: ../bid/bid128_frexp.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_frexp.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_frexp.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_frexp.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.obj: ../bid/bid128_hypot.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_hypot.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_hypot.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_hypot.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.obj: ../bid/bid128_ldexp.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_ldexp.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_ldexp.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_ldexp.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.obj: ../bid/bid128_lgamma.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_lgamma.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_lgamma.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_lgamma.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.obj: ../bid/bid128_llquantexpd.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_llquantexpd.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_llquantexpd.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_llquantexpd.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.obj: ../bid/bid128_llrintd.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_llrintd.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_llrintd.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_llrintd.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.obj: ../bid/bid128_llround.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_llround.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_llround.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_llround.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.obj: ../bid/bid128_log10.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log10.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log10.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log10.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.obj: ../bid/bid128_log1p.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log1p.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log1p.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log1p.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.obj: ../bid/bid128_log2.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log2.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log2.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log2.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.obj: ../bid/bid128_logb.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_logb.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_logb.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_logb.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.obj: ../bid/bid128_logbd.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_logbd.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_logbd.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_logbd.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.obj: ../bid/bid128_log.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_log.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.obj: ../bid/bid128_lrintd.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_lrintd.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_lrintd.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_lrintd.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.obj: ../bid/bid128_lround.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_lround.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_lround.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_lround.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.obj: ../bid/bid128_minmax.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_minmax.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_minmax.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_minmax.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.obj: ../bid/bid128_modf.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_modf.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_modf.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_modf.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.obj: ../bid/bid128_mul.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_mul.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_mul.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_mul.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.obj: ../bid/bid128_nearbyintd.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_nearbyintd.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_nearbyintd.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_nearbyintd.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.obj: ../bid/bid128_next.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_next.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_next.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_next.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.obj: ../bid/bid128_nexttowardd.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_nexttowardd.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_nexttowardd.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_nexttowardd.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.obj: ../bid/bid128_noncomp.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_noncomp.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_noncomp.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_noncomp.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.obj: ../bid/bid128_pow.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_pow.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_pow.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_pow.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.obj: ../bid/bid128_quantexpd.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_quantexpd.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_quantexpd.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_quantexpd.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.obj: ../bid/bid128_quantize.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_quantize.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_quantize.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_quantize.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.obj: ../bid/bid128_quantumd.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_quantumd.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_quantumd.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_quantumd.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.obj: ../bid/bid128_rem.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_rem.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_rem.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_rem.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.obj: ../bid/bid128_round_integral.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_round_integral.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_round_integral.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_round_integral.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.obj: ../bid/bid128_scalb.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_scalb.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_scalb.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_scalb.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.obj: ../bid/bid128_scalbl.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_scalbl.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_scalbl.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_scalbl.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.obj: ../bid/bid128_sin.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_sin.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_sin.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_sin.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.obj: ../bid/bid128_sinh.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_sinh.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_sinh.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_sinh.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.obj: ../bid/bid128_sqrt.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_sqrt.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_sqrt.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_sqrt.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.obj: ../bid/bid128_string.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_string.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_string.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_string.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.obj: ../bid/bid128_tan.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_tan.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_tan.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_tan.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.obj: ../bid/bid128_tanh.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_tanh.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_tanh.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_tanh.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.obj: ../bid/bid128_tgamma.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_tgamma.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_tgamma.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_tgamma.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.obj: ../bid/bid128_to_int16.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int16.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int16.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int16.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.obj: ../bid/bid128_to_int32.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int32.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int32.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int32.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.obj: ../bid/bid128_to_int64.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int64.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int64.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int64.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.obj: ../bid/bid128_to_int8.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int8.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int8.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_int8.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.obj: ../bid/bid128_to_uint16.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint16.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint16.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint16.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.obj: ../bid/bid128_to_uint32.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint32.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint32.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint32.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.obj: ../bid/bid128_to_uint64.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint64.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint64.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint64.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.s
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.obj: ../bid/bid128_to_uint8.c
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.obj -MF CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.obj.d -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.obj -c /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint8.c
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint8.c > CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.i
+
+CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid128_to_uint8.c -o CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.s
+
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -114,7 +1122,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -128,7 +1136,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -142,7 +1150,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -156,7 +1164,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -170,7 +1178,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -183,7 +1191,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -197,7 +1205,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -211,7 +1219,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/commo
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -225,7 +1233,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/commo
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -239,7 +1247,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/commo
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -253,7 +1261,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/commo
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -267,7 +1275,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -281,7 +1289,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/commo
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -295,7 +1303,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/commo
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -309,7 +1317,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/commo
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -323,7 +1331,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/commo
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -337,7 +1345,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/commo
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -350,7 +1358,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -364,7 +1372,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -378,7 +1386,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -392,7 +1400,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -406,7 +1414,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -420,7 +1428,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -434,7 +1442,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -448,7 +1456,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -461,7 +1469,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -475,7 +1483,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -488,7 +1496,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -501,7 +1509,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -515,7 +1523,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -529,7 +1537,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -542,7 +1550,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -555,7 +1563,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -568,7 +1576,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -582,7 +1590,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -596,7 +1604,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -609,7 +1617,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -623,7 +1631,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -636,7 +1644,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -649,7 +1657,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building ASM object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -663,7 +1671,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -677,7 +1685,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -691,7 +1699,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -705,7 +1713,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -719,7 +1727,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -733,7 +1741,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -747,7 +1755,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -761,7 +1769,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -775,7 +1783,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -789,7 +1797,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -803,7 +1811,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -817,7 +1825,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -831,7 +1839,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -845,7 +1853,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -859,7 +1867,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -873,7 +1881,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -887,7 +1895,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -901,7 +1909,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -915,7 +1923,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -929,7 +1937,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -943,7 +1951,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -957,7 +1965,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -971,7 +1979,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -985,7 +1993,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -999,7 +2007,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1013,7 +2021,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyu
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1027,7 +2035,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -1041,7 +2049,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -1055,7 +2063,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1069,7 +2077,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -1083,7 +2091,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -1097,7 +2105,7 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/hd36106_replacement.dir/flags.make
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/hd36106_replacement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -1112,6 +2120,78 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 hd36106_replacement_OBJECTS = \
 "CMakeFiles/hd36106_replacement.dir/hd36106_replacement.c.obj" \
 "CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.obj" \
+"CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.obj" \
 "CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
@@ -1191,6 +2271,78 @@ hd36106_replacement_EXTERNAL_OBJECTS =
 
 hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/hd36106_replacement.c.obj
 hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid_from_int.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid_decimal_data.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid_convert_data.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_2_str_tables.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_acos.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_acosh.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_add.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_asin.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_asinh.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_atan2.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_atan.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_atanh.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_cbrt.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_compare.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_cos.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_cosh.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_div.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_erf.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_erfc.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_exp10.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_exp2.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_exp.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_expm1.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_fdimd.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_fma.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_fmod.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_frexp.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_hypot.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_ldexp.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_lgamma.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_llquantexpd.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_llrintd.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_llround.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_log10.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_log1p.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_log2.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_logb.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_logbd.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_log.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_lrintd.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_lround.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_minmax.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_modf.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_mul.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_nearbyintd.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_next.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_nexttowardd.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_noncomp.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_pow.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_quantexpd.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_quantize.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_quantumd.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_rem.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_round_integral.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_scalb.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_scalbl.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_sin.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_sinh.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_sqrt.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_string.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_tan.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_tanh.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_tgamma.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int16.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int32.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int64.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_to_int8.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint16.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint32.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint64.c.obj
+hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/bid/bid128_to_uint8.c.obj
 hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -1267,7 +2419,7 @@ hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/tree/downloaded_tool
 hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/build.make
 hd36106_replacement.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 hd36106_replacement.elf: CMakeFiles/hd36106_replacement.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Linking CXX executable hd36106_replacement.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Linking CXX executable hd36106_replacement.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hd36106_replacement.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/hd36106_replacement.elf hd36106_replacement.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/build/hd36106_replacement.elf hd36106_replacement.bin

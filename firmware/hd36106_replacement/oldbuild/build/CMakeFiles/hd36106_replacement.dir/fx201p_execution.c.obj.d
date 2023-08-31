@@ -22,4 +22,6 @@ CMakeFiles/hd36106_replacement.dir/fx201p_execution.c.obj: \
  /usr/include/newlib/alloca.h /usr/include/newlib/string.h \
  /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
  /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/fx201p.h \
- /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/fx201p_execution.h
+ /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/fx201p_execution.h \
+ /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_conf.h \
+ /tree/projects/github/fx201p-ram-replacement/firmware/hd36106_replacement/bid/bid_functions.h

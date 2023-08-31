@@ -1,0 +1,1038 @@
+
+Normal distribution continued fraction:
+
+The normal CDF now is more precise, but full machine precision is not
+achieved. Especially in the tails (x >= 2) this could be done easily
+with a simple continued fraction expansion. Unoptimized pseudo-code:
+
+   n := 4 + 100 div (x-1)  ; see below
+   s := 1/n
+   for c := n-1 downto 1 do
+       s := c / (s + x)
+   s := s + x
+   cdf := pdf(x) / s
+
+I tried to determine a rule for the number of terms n, depending on x
+and the desired accuracy (d digits). As far as I can tell on a system
+working with usual binary double precision numbers (15-16 valid decimals)
+this value can be estimated for d = 8...16 digits quite exactly by
+
+   k >= 17 + d * (d-5) / 2   (the example uses k = 100 for d ~= 16)
+   n >= 4 + int(k / (x-1))
+
+This should return the value for s with d valid digits and an error
+near 0,2 ULP. With 39 internal digits on the 34s the desired 16-digit
+result can be evaluated without effort, since the required pdf and its
+exp(-0,5*x^2) can be evaluated with sufficient precision. All this is
+calculated in virtually no time.
+
+
+----------------------------------------------------------------------
+
+
+So the two initial guesses are somewhat off. There are various simple
+ways to fix this for the normal quantile:
+
+    * Determine a high-quality estimate by using a known approximation,
+    such as the good old Hastings method (absolute error < 0,00045). Or,
+    even better, the Bailey method (cf. Applied Statistics vol. 30 no. 3,
+    1981), or an improved version I worked out some time ago. ;-) After
+    this, a few Newton iterations will provide the exact quantile. Or,
+    even better, two or three Newton-Halley steps, which is trivially
+    simple here, giving about 2-3 times the number of correct digits
+    with each step. Of course also the solver can be used instead.
+
+    * If the solver is used two quite good initial guesses can be
+    evaluated this way:
+
+          0,5 >= p >= 0,15         0,15 >= p > 0
+          -----------------------------------------------
+          a = 3 * (0,5 - p)        a = sqrt(-2*ln(p) - e)
+          b = a * 5/6              b = a - 1/4
+
+      The exact result is in this interval. The two guesses differ only
+      by 20% resp. by merely 0,25 so that the solver will find the result
+      fast with only a few iterations.
+
+Addendum: I just tried the solver in a WP34s user program with the two
+initial guesses mentioned above, solving for the root of the equation
+ln 1 + (cdf(x)-p)/p to avoid problems in the far tails, using the ln1+x
+function. The results are returned immediately and the values I checked
+show about 15 valid digits (out of the 16 used for all calculations).
+
+
+----------------------------------------------------------------------
+
+
+The mentioned formulas for the two initial guesses are very simple. But
+they approximate the exact value with a relative error less than 20%
+resp. an absolut error less than 0,25. With a little more effort we can
+easily provide two better guesses which can nail down the true value
+with an absolute error in the order of 10^-5 to 10^-8 (!) in the far
+tails (p =< 10^-10). This is possible because here the quantile can be
+evaluated by a series - the farther out in the tail, the less terms are
+required, especially with a little tweaking of the "exact" series. ;-)
+So it comes down to the question how much effort (and memory) can be
+spent for two even better initial guesses which would require, say,
+only 1/2 or 1/3 the number of iterations.
+
+Here's a quick and dirty improvement for the far tail. It's a slight
+modification of the original formula, now providing two guesses that
+are only 0,09 or even merely 0,025 apart:
+
+    0,15 >= p > 0
+    -----------------------
+    a = sqrt(-2*ln(p) - e)
+    b = a - 1/4
+    if a >= 4,5 then a = a - 1/a ; b = a - 1/11
+
+or, even better, but on a smaller interval:
+
+    if a >= 9 then a = a - a^-(3/4) ; b = a - 1/40
+
+On the other hand, in the very center (i. e. p close to 0,5 resp. z close
+to zero) using the solver will cause problems because there are multiple
+z-values that will return the same 16-digit CDF. I would suggest the
+following solution:
+
+Near p = 0,5 the quantile can easily be calculated directly (!) by a
+simple series:
+
+  u  =  sqrt(2*Pi) * (p - 0,5)
+              1          7         127         4369         243649
+  z  =  u +  -- u^3  +  -- u^5  +  --- u^7  +  ---- u^9  +  ------ u^11  +  ...
+             3!         5!          7!          9!           11!
+
+The nominators of the coefficients are integer series A002067.
+
+For 0,495...0,505 (or |u| =< 0,0125) an exact 16-digit results requires
+only four terms, i.e. up to u^7. With one more term (u^9) the result is
+exact for p = 0,486...514 (or |u| =< 0,035).
+
+This leads to the following algorithm (assuming p =< 0,5):
+
+    if p > 0,15 then
+       u = sqrt(2*Pi) * (p - 0,5)
+       a = u + (u^3)/6 + (u^5)*7/120 + (u^7)*127/5040
+       if p > 0,495
+         then return a and quit   ; a already is exact
+         else
+              b = a * 1,006
+              return solverresult(a, b)
+       end if
+    else     ; p =< 0,15
+       a = sqrt(-2 * ln(p) - e)
+       b = a - 1/4
+       if a >= 9 then   ; far tail
+          a = a - a^-(3/4)
+          b = a - 1/40
+       end if
+       return solverresult (a, b)
+    end if
+
+In other words: for p > 0,15 determine a very good first guess. If p is
+close enough to 0,5 this guess already is exact, so simply return it as
+the final result. Otherwise provide a second guess slightly higher and
+let the solver do the rest. Which is done very quickly since the error
+is less than 0,6%. In the tails determine two reasonably good guesses,
+and in the far tails two even better ones that reduce the remaining
+error by a factor of 10.
+
+
+
+
+
+And another one:
+
+
+And here it is - I designed a rational approximation, hand crafted to
+meet our needs. ;-) It has the following properties:
+
+    It works for probabilities down to 1E-500 or |z| up to 48.
+
+    It requires only four numeric constants with just two or three
+    significant digits.
+
+    No special care has been taken of the center (z very close to zero)
+    since here the exact quantile can be evaluated easily.
+
+    It returns an estimate for |z| which is slightly high (in absolute
+    terms). The absolute error is greater than 0,0001 and less than
+    0,0036. So this estimate and a second guess 0,0037 lower define an
+    interval that definitely includes the exact quantile.
+
+So the normal quantile can now be evaluated this way:
+
+if p > 0,5
+   then
+      signflag = false
+      q = 1 - p
+   else
+      signflag = true
+      q = p
+   endif
+if q >= 0,495
+   then  ; use series and determine exact result
+      t = (0,5 - q)^2 * 2 * Pi     
+      z = (127/5040*t + 7/120)*t + 1/6)*t + 1) * sqrt(t)
+   else  ; use solver with two close guesses a and b
+      t = sqrt(-2 * ln(q))
+      a = t - (0,373*t + 2,37)/((0,068*t + 1,1)*t + 1)
+      b = a - 0,0037
+      z = solver(a, b)
+   endif
+if signflag then z = -z
+return z
+
+
+
+-----------------------------------------------------------------------------
+Ah, the Normal quantile again. :-) I would like to add some remarks that
+might help a bit here.
+
+The applied algorithm itself is quite stable - as long as there is
+sufficient precision both in the CDF and, even more important, while
+evaluating the term
+
+        CDF(x) - p
+  t  =  ----------
+          PDF(x)
+
+This expression is used both in the Halley method as well in another
+approach I tend to prefer. The more x approaches the true quantile,
+i.e. the better CDF(x) matches p, the more important this point gets as
+the number of significant digits in the difference decreases. Another
+problem is the fact that, at least for x < 1, there are multiple n-digit
+values for x that will return the same n-digit CDF, so the nominator
+may become zero even if x is not yet exact.
+
+My current solution (used in a 41 and 35s) works as follows:
+
+    Provide a better initial estimate with an error order of 0,001.
+
+    Improve this estimate with one single correction step, which leads
+    to a result with about 11 valid digits for p > 1E-100, i.e. for the
+    whole working range of the classic 10-digit machines.
+
+    One more iteration should return more than 20 valid digits -
+    I will yet have to try this in an environment with sufficient
+    presicion. Maybe a Mathematica user can do this.
+
+    Calculators with wider working range (down to 1E-500) require one
+    more iteration step - or a slight adjustment of the intial estimate.
+
+And here are the details. As always, p < 0,5 and x > 0,
+i.e. p = 0,1  =>  x = +1,28155...
+
+Initial estimate, using a very simple rational approximation:
+ 
+  r = sqrt(-2 * ln(p))
+  x = r - (0,394r + 2,366) / ((0,0728r + 1,108)r + 1)
+ 
+  if x < 0,003 then x = 0   ' improves numeric stability close to 0
+ 
+Refinement:
+ 
+  t = (CDF(x) - p) / PDF(x)   ' CDF here is to the right hand integral !
+  x =  x  +  t  +  x/2 * t^2 + (2*x^2+1)/6 * t^3
+
+The refinement is based on the method suggested in Abramovitz & Stegun,
+p. 954. I think it works very well. ;-)
+
+I originally used this method for the 41C with its 10-digit precision
+and a range down to 1E-99. With at least 12 digits working accuracy, one
+single iteration step should provide 11 valid digits +/- 1 ULP, i.e. it
+should be fine for a machine code routine that carries 13 internal digits
+before it returns an exact 10-digit result to the user. During my tests
+in Excel (15-digit binary arithmetics) I did not notice any error beyond
++0 and -4 units in the 12th significant digit.
+
+For calculators with a working range down to 1E-500 a different rational
+approximation for the initial estimate may be used, or the latter gets
+a slight adjustment:
+
+  if x > 21,3  then  x = x - exp(x/21,3 - 7,7)
+
+Alternatively, one or two more iterations are fine, too - and very
+fast as well since the PDF is evaluated very quickly far out in the
+distribution tails.
+
+The desired 16-digit accuracy for the 34s should be no problem with just
+two iterations, or three in double precision mode. That's why I agree
+that a fixed number of iterations may avoid the problem of oscillating
+approximations while the desired accuracy is still achieved. On the other
+hand I would recommend a different way of calculating the quotient t. For
+instance, the ratio CDF(x)/PDF(x) usually shows up during the calculation
+of the CDF (by series or continued fraction), so this might be used for
+an alternative way to calculate t.
+-----------------------------------------------------------------------------
+
+
+And some code from Les Wright:
+
+It is basically a stripped down version of your own routine--I get the
+initial estimate using the formulae Dieter provided, and simply do three
+successive Halley refinements against the calc's Phi(x) whether I need
+them or not. No convergence tests. As you know, two Halley refinements
+give at least 18 digits (in theory), and three give at least 54 in
+an environment of adequate intermediate precision. More than enough
+for the calc's SP and DP. For SP it is overkill, but it is still fast
+enough for me. I suspect I lose a digit here and there due to rounding,
+as I can't take advantage of the full 39 internal digits, but it really
+was a fruitful programming exercise for me.
+
+Here is my listing--forgive me for not commenting on it due to being
+rushed:
+
+	0001 ****LBL'INN'
+	0002 LocR 005
+	0003 # [pi]
+	0004 STO+ X
+	0005 [sqrt]
+	0006 STO .00
+	0007 R[v]
+	0008 # 022
+	0009 # 100
+	0010 /
+	0011 x[<->] Y
+	0012 STO .02
+	0013 x>? Y
+	0014 GTO 001
+	0015 LN
+	0016 STO+ X
+	0017 +/-
+	0018 STO .03
+	0019 DEC X
+	0020 [sqrt]
+	0021 RCL[times] .00
+	0022 RCL[times] .02
+	0023 LN
+	0024 STO+ X
+	0025 +/-
+	0026 [sqrt]
+	0027 # 005
+	0028 RCL[times] .03
+	0029 1/x
+	0030 +
+	0031 GTO 002
+	0032 **LBL 001
+	0033 # 002
+	0034 1/x
+	0035 RCL- Y
+	0036 RCL[times] .00
+	0037 FILL
+	0038 STO[times] X
+	0039 # 006
+	0040 /
+	0041 INC X
+	0042 [times]
+	0043 **LBL 002
+	0044 +/-
+	0045 STO .04
+	0046 # 003
+	0047 STO .01
+	0048 R[v]
+	0049 **LBL 003
+	0050 [PHI](x)
+	0051 RCL- .02
+	0052 RCL[times] .00
+	0053 RCL .04
+	0054 RCL[times] .04
+	0055 # 002
+	0056 /
+	0057 e[^x]
+	0058 [times]
+	0059 FILL
+	0060 RCL[times] .04
+	0061 # 002
+	0062 /
+	0063 INC X
+	0064 /
+	0065 STO- .04
+	0066 RCL .04
+	0067 DSZ .01
+	0068 GTO 003
+	0069 RTN
+	0070 END
+
+My sense is that you would do well in your XROM version just to do three
+Halley refinements and not bother with tests of convergence. It may seem
+overkill, but I bet it will speed things up.
+
+-----------------------------------------------------------------------------
+
+Pauli, Les et al. -
+
+I'll try to summarize all this in one single post. ;-)
+
+Yesterday I replaced the initial rational approximation from by previous
+suggestion by a dedicated version for p down to 1E-400. It now provides
+an estimate with an absolute error near +/- 0,002 and requires just two
+short real constants. The rest can be done with INC commands. ;-)
+
+Estimate for 1E-400 =< p =< 0.5:
+
+   r = sqrt(-2 ln p)
+   x = r  -  (0,295*(r+1) + 2) / ((0,0511*r + 1) * r) + 1)
+
+An estimate x below 0.001 should get rounded to zero to ensure best
+results in the following correction step. The approximation was designed
+to give eight valid digits after the first iteration (max. error
+approx. +/- 2 units in the 9th digit), and with a second resp. third
+iteration we should be on the safe side for standard resp. double
+precision - as long as the working precision is sufficient. But that's
+another story - see my other remarks below.
+
+Here's my implementation for the 34s.
+
+001 **LBL A
+002 STO 00                   // save p in R00
+003 ENTER[^]
+004 DEC X
+005 +/-
+006 MIN
+007 STO 01                   // q = min(p, 1-p) in R01
+008 LN
+009 STO+ X
+010 +/-
+011 [sqrt]                   // r = sqrt(-2 ln q)
+012 ENTER[^]
+013 INC X                    // rational approximation starts here
+014 .
+015 2
+016 9
+017 5
+018 [times]
+019 INC X
+020 INC X
+021 .
+022 0
+023 5
+024 1
+025 1
+026 RCL[times] Z
+027 INC X
+028 RCL[times] Z
+029 INC X
+030 /
+031 -                        // first extimate x
+032 ENTER[^]
+033 SDL 003
+034 x<1?                     // x < 0,001?  resp. 1000 x < 1 ?
+035 CLSTK                    // then x = 0
+036 DROP
+037 STO 02                   // save x in R02 
+038 2
+039 DBL?
+040 INC X                    // 2 resp. 3 iterations will do
+041 STO 03                   // loop counter in R03
+042 **LBL 000
+043 RCL 02
+044 +/-
+045 [PHI](x)                 // Q(x) = right hand integral = Phi(-x)
+046 RCL- 01
+047 RCL 02
+048 [phi](x)
+049 /                        // t = (CDF(x) - q) / PDF(x)
+050 FILL                     // save t on stack
+051 x[^3]
+052 6
+053 /                        // least correction term is t^3 / 6...
+054 RCL 02
+055 x[^2]
+056 STO+ X
+057 INC X
+058 [times]                  // ... * (2 x^2 + 1)
+059 x[<->] Y
+060 x[^2]                    // second last term is...
+061 RCL[times] 02
+062 2
+063 /                        // ... t^2 * x / 2
+064 +                        // add two smallest terms together                 
+065 +                        // add this to t to get complete delta
+066 STO+ 02                  // correct x by delta
+067 DSZ 03
+068 GTO 000                  // repeat 2 or 3 times
+069 RCL 00
+070 .
+071 5
+072 -
+073 SIGN                     // finally adjust sign of x
+074 RCL[times] 02
+075 END
+
+0,0025 [A] -2,8070 33768 34380 41172 21810 39471 2269 E+0 exact
+
+This works fine at least for quantiles >= 1. Now let's look at p close to 0,5.
+Note: "+1D34" = +1 unit in the 34th significant digit.
+
+0,49               [A] -2,5068 90825 87110 35762 36343 18346 9043 E-2   +1D34
+0,4999             [A] -2,5066 28300 88035 09892 06501 05407 8430 E-4   +1D32
+0,4999999          [A] -2,5066 28274 63102 67517 65674 82243 4196 E-7   -3D29
+0,4999999999       [A] -2,5066 28274 63100 05024 42013 42148 8860 E-10  -1D25
+0,4999999999999999 [A] -2,5066 28274 63100 05029 49753 49666 4200 E-16  +5D20
+
+This shows the problem Les and I have been talking about
+previously. Generally spoken, our basic approach (i.e. evaluate the
+CDF for the current approximation, see how good it matches p and apply
+a correction) is good for up to 34 decimals, but not for 34 significant
+digits. This is because close to zero there are numerous n-digit quantiles
+that return the desired p so that no further correction is applied. In
+other words, a calculated quantile near zero with a magnitude of 10^-n
+may be off in its last n digits, so that we may expect something like
+34-n digit accuracy. Yes, the given examples are one digit better. ;-)
+
+What can we do? We will have to handle p close to 0,5 separately. This
+can be accomplished in several ways:
+
+    Use the Chi-square method Les suggested. We just have to find a
+    limit where the program switches from one method to the other.
+
+    Use an direct and exact series expansion. Last year I proposed a
+    suitable solution. Les mentioned it these days in one of his posts
+    as he found it in the readme files. Here is the basic approach:
+
+    let   u  =  sqrt(2*pi)*(p-0,5)
+    then  z  =  u + u^3 * 1/3! + u^5 * 7/5! + u^7 * 127/7! + u^9 * 4369/9! + ...
+
+    The nominators (1, 1, 7, 127, 4369, ...) are given by integer sequence
+    A002067. For 34 digits and p = 0,499...0,501 only a few terms up
+    to u^11 should be sufficient. The equation should be evaluated from
+    right to left, i.e. add the smallest terms first.
+
+    A quick and easy solution may be a special function that evaluates
+    Phi(x)-0,5. In other words, a solution similar to the well-known
+    e^x-1. During the Phi(x) routine this value is already calculated
+    (integral from 0 to x), before finally 0,5 is added to get Phi(x),
+    i.e. the integral from -infinity to x.
+
+But there's also another way to address this issue: Forget about 34-digit
+accuracy. There simply is no way to ensure a valid n-digit result as long
+as all calculations carry just the same n digits and no further guard
+digits. I remember how I tried to get an exact 10-digit result for the
+Normal quantile on the 41C with the same 10 digits working precision. It's
+simply not possible (at least I do not know of a method to accomplish
+this). That's why I designed the algorithm I suggested a few days ago -
+it returns 11 good digits over the 41C's working range as long as the
+calculation is done with a few more guard digits, e.g. in machine code.
+
+If I remember correctly, the original idea behind the double precision
+mode was this: enable the user to write user-code functions with lots of
+extended precision, so that the final result can be assumed to carry at
+least the usual 16 digits that are normally returned to the user. Once
+again: in many, if not most cases it's simply not possible to get a true
+34-digit result unless the working precision exceeds these 34 digits. So
+we cannot expect 34 digits anyway. What is possible? 32? 30? 25? It
+depends. Round it to 16 digits and you are on the safe side. :-)
+
+Dieter 
+
+-----------------------------------------------------------------------------
+Dieter's user code implementation:
+
+As announced a few hours ago, here is my current (experimental ;-))
+version of a 34s user code program for the Normal distribution's quantile
+function (QF); i.e. enter a probability p and get the corresponding
+z-value for which the Normal integral from -infinity to z equals p.
+
+Yes, the 34s (of course) provides such a function (Phi-1 on g-shift 4),
+which has undergone many changes since its first implementation. The
+last version I used (3.1 3208) still has some issues with arguments very
+close to (but less than) 0.5 and very close to 1. It does not provide
+the accuracy level that might be possible. Results are fine in SP mode,
+but in double precision there is some room for improvement.
+
+The following program works quite straightforward. First, it evaluates
+an initial estimate for the quantile:
+
+let q = min(p, 1-p)
+then, for q > 0.23
+      u = (0.5 - q) * sqrt(2 * pi)
+      z = u + u3/6
+else
+      u = -2 * ln(q)
+      z = sqrt(-2 * ln(q * sqrt(2 * pi * (u - 1)))) + 0.254/u
+
+Then this estimate is improved by the method suggested in A&S, p. 954:
+
+      t = (upperCDF(z) - q) / PDF(z)
+      z = z + t + t2*z/2 + t3*(2z+1)/6
+
+Finally the sign of z is adjusted: for p >= 0.5 return z, else -z.
+
+Now there is a pitfall in the evaluation of t. For z less than 1 and, more
+important, close to zero, the difference between CDF(z) and q may lose
+a more or less substantial number of digits. This problem can be solved
+if the Normal integral from 0 to z is evaluated, i.e. CDF(z) - 0.5. The
+34s does not provide such a function, but there is a simple workaround:
+
+    CDF(z) - 0.5  =  1/2 Incomplete_regularized_Gamma_p(1/2, z2/2)
+
+The desired difference then simply is (0.5 - q) minus this. The program
+uses this method for z =< 0.5. Switching at z = 1 should also be fine.
+
+When evaluated with sufficient precision (I did some tests in a 38-digit
+environment), two successive correction steps should provide a result
+with a max. error of approx. 5 units in the 35th significant digit
+(5D35), i.e. at the limit of what can be done in double precision.
+
+For z < 4E-9 the error of the initial estimate is less than 6D36, so
+no further correction is required, and z < 0.04 is so close that just
+one correction step keeps the error near 2D35 or below. At least when
+evaluated in 39-digit precision. ;-)
+
+If the correction method is expanded with a fourth term, the error
+can even be pushed down to somewhere in the 40th digit. Which may be an
+option if the algorithm is adopted for an internal function with 39-digit
+precision. In this case the threshold values mentioned in the previous
+paragraph should be changed to 2E-10 resp. 0.02.
+
+Provided the CDF resp. IGamma functions have all their 34 digits correct,
+the accuracy on a 34s in DP mode should be 33 digits. I did not do any
+extensive tests, so beware and see yourself what you get. According to my
+results, z > 1 usually is either exact or sometimes 1 ULP off. For z < 1
+the last digit may be off by several units (I did not notice more than 3).
+
+And finally: here's the code.
+
+	0001 *LBL'QF'
+	0002 CF 00
+	0003 SF 01
+	0004 ENTER[^]
+	0005 +/-
+	0006 INC X
+	0007 MIN
+	0008 STO 01              // q = min(p, 1-p)
+	0009 x[!=]? L
+	0010 SF 00               // Set Flag 0 if p < 0.5 (i.e. 1-p != q)
+	0011 .
+	0012 5                   // pre-store 0.5 in R00 for later use
+	0013 STO 00
+	0014 # 023
+	0015 SDR 002
+	0016 RCL 01
+	0017 x>? Y
+	0018 GTO 01
+	0019 ENTER[^]            // tail estimate
+	0020 LN
+	0021 STO+ X
+	0022 +/-
+	0023 STO Z
+	0024 DEC X
+	0025 # [pi]
+	0026 [times]
+	0027 STO+ X
+	0028 [sqrt]
+	0029 x
+	0030 LN
+	0031 STO+ X
+	0032 +/-
+	0033 [sqrt]
+	0034 # 254
+	0035 SDR 003
+	0036 RCL/ Z
+	0037 +
+	0038 STO 02
+	0039 GTO 02
+	0040 *LBL 01             // estimate for central region
+	0041 RCL 00
+	0042 RCL- Y
+	0043 # [pi]
+	0044 STO+ X
+	0045 [sqrt]
+	0046 [times]
+	0047 ENTER[^]
+	0048 x[^3]
+	0049 # 006
+	0050 /
+	0051 +
+	0052 STO 02
+	0053 # 004
+	0054 SDR 002
+	0055 x>? Y
+	0056 CF 01               // z < 0.04 requires just one correction step
+	0057 SDR 007
+	0058 x>? Y
+	0059 GTO 03              // z < 4E-9 needs no correction at all => exit
+	0060 *LBL 02
+	0061 RCL 02
+	0062 x>? 00              // "x>1?" should be fine either
+	0063 SKIP 009
+	0064 x[^2]
+	0065 RCL[times] 00
+	0066 RCL 00
+	0067 I[GAMMA][sub-p]
+	0068 RCL[times] 00
+	0069 RCL 00
+	0070 RCL- 01            // For q close to 0.5:
+	0071 RCL- Y             // upperCDF(z) - q  =  (0.5-q) - IGamma_p(z2/2)
+	0072 SKIP 002
+	0073 [PHI][sub-u](x)    // Otherwise evaluate Phi_u(z) - q directly
+	0074 RCL- 01
+	0075 RCL 02
+	0076 [phi](x)
+	0077 /
+	0078 FILL
+	0079 x[^3]              // Apply a third-order correction
+	0080 RCL 02             // Evaluate all three terms individually
+	0081 x[^2]              // and add them in order of their magnitude,
+	0082 STO+ X             // smallest terms first, to preserve
+	0083 INC X              // as much accuracy as possible
+	0084 [times]
+	0085 # 006
+	0086 /
+	0087 x[<->] Y
+	0088 x[^2]
+	0089 RCL[times] 02
+	0090 RCL[times] 00
+	0091 +
+	0092 +
+	0093 STO+ 02
+	0094 FS?C 01
+	0095 GTO 02
+	0096 *LBL 03
+	0097 RCL 02            // exit program
+	0098 FS?C 00           // set sign if required
+	0099 +/-
+	0100 END
+
+Registers:
+	R00: 0.5 
+	R01: q = min(p, 1-p)
+	R02: |z|
+
+Flags:
+	F00: Set for p < 0.5, else clear
+	F01: Set if a second iteration is required, else clear
+
+Still all I got is the 34s emulator. So I would appreciate some feedback
+from those who use a "real" hardware 34s. How fast does this program
+run? Switch to double precision (Mode menu, DBLON) and see how it
+performs. Do you find any errors that are larger than a few units in the
+last (34th) digit? Please note that this code has not been thoroughly
+tested - simply try it and see what you get. :-) I am sure there still
+is room for the one or other improvement. All suggestions are welcome.
+
+-----------------------------------------------------------------------------
+
+Student's T estimate:
+
+The second important distribution we should take a closer look at now is
+Student's t-distribution. I have been experimenting a while with several
+approaches, and I finally got a result that I think is fine as a first
+estimate. Use at your own risk, expect any error you can imagine, but
+try this:
+
+    * For df = 1 or 2 degrees of freedom the quantile can be determined
+    directly.
+      This also is the case for n = 4, it only requires a bit care at
+      very low t (close to zero) or p close to 0,5.
+
+    * For other degrees of freedom, i.e. df >= 3, the following method
+    provides a nice first estimate. As usual, p is assumed to be less
+    than 0,5 and t > 0.
+
+         if -ln(p) < 1,7 * df then
+             x = guess_normal(p)
+             u = (x^3 + x) / 4 / df
+             v = (x^5 / 12 + x^3 / 4) / df^2
+             t = x + u + v
+         else
+             u = p * df * sqrt(Pi / (df/2 - 1/4))
+             t = sqrt(df) / u^(1/df)
+         end if
+
+Here guess_normal is the well-known first estimate of the normal quantile
+(with the slight modification 1/u^2 instead of 0,2/u, as mentioned
+earlier). According to my results this estimate for t differs from the
+exact value by something like typically +/- 1...2%, in some cases a
+bit more.
+
+This single estimate now can be used for a Newton-iteration - the first
+derivative simply is the Student PDF, so we get
+
+                   tCDF(t) - p
+   t_new  =  t  -  -----------
+                     tPDF(t)
+
+If two guesses are required (e.g. for the 34s solver) we can simply use
+1.1*t and 0.9*t (or something similar).
+
+
+
+
+Chi Squared estimate:
+
+
+The following approximation is based on the well-known 1931 Wilson and
+Hilferty transformation (cf Abramovitz and Stegun, 26.4.17). While this
+method gives nice results in the center, it fails for p close to 0 or 1.
+So two additional approximations are used. One of them was adapted from
+Applied Statistics algorithm AS91 by Best and Roberts (1975), including
+some additional later improvements from 1991. The Fortran code is
+available at http://lib.stat.cmu.edu/apstat/91
+
+AS91 evaluates a first initial guess for the Chi^2 quantile which then
+is improved in a Taylor series iteration. For our purpose only an
+initial guess is required, since the rest is done by the 34s solver or a
+dedicated Newton-style algorithm. Since AS91 requires two logs and a
+gamma function for p close to 1, in our case a homebrew approximation
+with similar precision is used instead, requiring only one log. The
+whole thing was finally streamlined and slightly tweaked for best
+results with our initial guess for the normal quantile which is used
+here once again. All in all, with probability p and n degrees of
+freedom, the result looks like this:
+
+function guess_chi(p, n)
+
+nhalf = n/2
+If n > 15 then limit = 0.85 else limit = 1
+
+If p < exp(-limit*n) then     ' modified B+R approx. for p close to 0
+  lng = lngamma(nhalf)
+  ch = 2 * (p * nhalf)^(1/nhalf) * exp(lng/nhalf)
+else
+  x = 0.97 * guess_normal(p) ' Wilson + Hilferty for the center
+  u = 0.2214 / n             ' works better than 2/9 = 0.2222
+  ch = n * (x * sqrt(u) - u + 1) ^ 3
+  If ch > 6*n + 16 then      ' my own adjustment for p close to 1
+     ch = ch * (1 + ln1plusx(-p) / (150*n))
+end if
+
+guess_chi = ch
+
+end function
+
+
+According to my results, for all positive integer n the error is within
+-9%...+7% of the true value. I tested p from 1E-307 up to 1 - 1E-16 and
+n from 1 to 1000 and higher.
+
+Once again, the first guess relies on the same normal estimate procedure
+as it is used in the Normal and Student case. However, please note that
+guess_normal(p) here has to accept any 0 < p < 1 and not just up to 0,5
+as in the Normal and Student case with their symmetric PDF. Since p is
+the left hand integral (from 0 to Chi^2) the sign convention is as
+usual: p < 0,5 has to return a negative guess_normal, and p > 0,5 a
+positive one. As it turned out, the results improve if the normal
+estimate is slightly decreased - which is the reason for the 0,97.
+
+For n = 1 guess_chi may return zero for p very close to zero (near
+1E-200). This is perfectly okay since the estimate here actually agrees
+with the true value in 400 (!) decimal places and the full precision
+result (pi/2 * p^2) simply underflows as well. So, if the guess is zero
+we already have the true value and no further iteration is required
+(which would cause numeric problems anyway).
+
+This implementation returns a valid guess even for large n. On a
+15-digit system I got good results even for n > 1000. In this case the
+term exp(-0.85*n) will soon underflow to zero, which numerically is no
+problem. If an underflow has to be avoided for other reasons, the test
+can be changed to ln(p) < -limit*n.
+
+The estimate still requires one gamma function, or here a lngamma() to
+increase the useable range of n. If n <= 410 is sufficient (the 34s
+Gamma function works up to 205) the estimate for small p can be written
+as  ch = 2 * (p * nhalf * gamma(nhalf))^(1/nhalf). If calling the
+regular Gamma or lnGamma routine is too slow there may be a simple, yet
+effective alternative Gamma function that only has to cover integers and
+half-integers, similar to the short routine for the Chi^2 PDF below.
+
+I tested this initial estimate as a first guess for a Newton
+approximation and obtained 15 valid digits usually within 4 - 7
+iterations, here and there a few more. In this case the Chi^2 PDF is
+required, which again requires gamma(n/2). This means, we could evaluate
+gamma(n/2) once at the beginning of the algorithm and then use it first
+for the estimate and then for the PDF required for the Newton iteration.
+Maybe even a third time for the evaluation of the Chi^2 CDF.
+
+Another option is an optimized routine for the Chi^2 PDF, which may be
+written like this:
+
+function chi_pdf(x, n)
+
+xhalf = x / 2
+nhalf = n / 2
+k = nhalf
+
+If nhalf = int(nhalf) then r = 0.5 else r = 1 / sqrt(2 * pi * x)
+
+while k > 1 do
+  k = k - 1
+  r = r * xhalf / k
+  end
+
+chi_pdf = r * exp(-xhalf)
+
+end function
+
+The while-loop evaluates the quotient (x/2)^(n/2)/gamma(n/2)/x while
+minimizing the danger of overflow. Multiplication with exp(-n/2) finally
+gives the Chi^2 pdf. It should also run faster than a straightforward
+approach that calls an external gamma routine.
+
+Using a Newton iteration, a 16-digit result usually is found with just a
+few iterations. However, there were cases where the method tried to
+adjust the first estimate by more than the actual error. Which in turn
+required numerous iterations before the value was back near the true
+result. I have not yet found out what happens in these cases, but there
+is an easy fix: since the error of the estimate is at most 8 or 9%, the
+delta added to the current estimate cannot exceed this value. It turned
+out that the problem primarily occurs at large n where the potential
+error is even less, so that a maximum correction of 3 or 4% works even
+better and minimizes the number of iterations. The modified Newton
+algorithm now basically looks like this:
+
+function chi_quantile(p, n)
+
+x = guess_chi(p,n)
+
+if x > 0 then   ' for x = 0 (underflow) the result already is exact
+ maxdelta = 0.04 * x
+ repeat
+   delta = (chi_cdf(x, n) - p) / chi_pdf(x, n)
+   if abs(delta) > maxdelta then delta = maxdelta * sign(delta)
+   x = x - delta
+ until abs(delta/x) < 1E-16
+end if
+
+chi_quantile = x
+
+end function
+
+If you want to try the 34s solver, the two estimates may be plus and
+minus 10% of the chi_guess result. However, I think a Newton approach
+will converge substantially faster.
+
+
+
+Fisher's F quantile estimate:
+
+cf Abramovitz and Stegun, end of chapter 26, p. 961 in 1964 ed.
+
+n1, n2 > 1  For n1=1 or n2=1 use 2 instead.
+
+
+function guess_fisher(n1, n2, pp)
+
+  r1 = 1 / (n1 - 1)
+  r2 = 1 / (n2 - 1)
+  h =  2 / (r1 + r2)
+  x = -guess_normal(pp)
+  k = (x*x - 3) / 6
+  w = x * sqrt(h + k) / h - (r1 - r2) * (k + 5/6 - 2/3/h)
+
+  guess_fisher = exp(2*w)
+
+end function
+
+
+
+Binomial quantile:
+
+For the record: here is a complete binomial quantile function. It
+returns a fractional value that is a linear interpolation between the
+two adjacent integers that define the interval [x, x+1] in which the cdf
+would have the value pp if the function was not discrete but continuous.
+
+The main point here is that this algorithm requires just one single call
+of the binomial cdf and also just one call of the pdf. The rest happens
+in a loop with just a few additions and multiplications. Since the first
+estimate usually is quite close to the true value only a few iterations
+are required. Even if the estimate is off by 10 or 20 or even more, I
+assume 20 of these loops will be executed faster than 2 or 3 loops with
+a ibeta() or binomial_cdf() call inside.
+
+I haven't tested this very thoroughly, in fact this is exactly the VBA
+code that I wrote just a few minutes ago. <8)
+
+
+Function binquantile(n, p, pp)
+
+q = 1 - p
+
+If pp >= 1 - p ^ n Then
+
+  x = n - (1 - pp) / (p ^ n)   ' direct solution for p close to 1
+
+Else
+
+  If pp <= q ^ n Then
+
+     x = pp / (q ^ n) - 1      ' direct solution for p close to 0
+
+  Else
+
+     z = guess_normal(pp)      ' estimate and iteration otherwise
+     x = Int((z + (z * z - 1) / 6) * Sqr(n * p * (1 - p)) + n * p)
+
+     If x < 0 Then x = 0       ' x is bounded by [0, n-1]
+     If x > n - 1 Then x = n - 1
+
+     cdf = bincdf(x, n, p)
+     pdf = binpdf(x, n, p)
+     poverq = p / q
+
+     If cdf > pp Then
+        Do
+          dy = pdf
+          cdf = cdf - dy
+          pdf = pdf * x / poverq / (n - x + 1)
+          x = x - 1
+        Loop Until cdf <= pp
+     Else
+        Do
+          x = x + 1
+          pdf = pdf / x * poverq * (n - x + 1)
+          dy = pdf
+          cdf = cdf + dy
+        Loop Until cdf >= pp
+     End If
+
+     x = x + (pp - cdf) / dy   ' final linear interpolation
+
+  End If
+
+End If
+
+binquantile = x
+
+End Function
+
+
+The basic idea is simple:
+
+- if pp =< cdf(0) return a linear estimate between 0 and -1.
+If you prefer integer results, simply return -1
+
+- if pp >= cdf(n-1) return a linear estimate between n-1 and n.
+If you prefer integer results, simply return n-1
+
+- otherwise evaluate an estimate x and check if it is too large or too
+small. Then decrement resp. increment x and adjust the cdf accordingly.
+This is easy since the new pdf can be calculated from the previous one.
+Test again until the cdf drops below resp. exceeds pp. If you prefer
+integer results, omit the final linear interpolation.
+
+
+
+
+
+
+Finally the normal distribution estimate:
+
+The 0.2/u term in the longest line may be replaced by 1/u^2.
+
+Function guess_normal(p)
+Const root2pi = 2.506628274631
+If p < 0.5 Then q = p Else q = 1 - p
+If q > 0.2 Then
+  u = root2pi * (0.5 - q)
+  z = u + u ^ 3 / 6
+Else
+  u = -2 * Log(q)
+  z = Sqr(-2 * Log(q * root2pi * Sqr(u - 1))) + 0.2 / u
+End If
+If p < 0.5 Then z = -z
+z_guess = z
+End Function

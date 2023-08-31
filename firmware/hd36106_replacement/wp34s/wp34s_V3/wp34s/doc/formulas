@@ -1,0 +1,207 @@
+
+
+sqrt(a + i b) = +- (sqrt(r + a) + i sqrt(r - a) sign(b)) sqrt(2) / 2
+		where r = sqrt(a^2 + b^2)
+
+
+Complex power:
+
+To summarize, given
+
+    x = a + i * b
+    y = c + i * d
+
+Then
+
+    x^y = r^c * e^-d * theta * [cos(c * theta + d * ln r) + i * sin(c * theta + d * ln r)]
+
+where,
+
+    r = sqrt(a^2 + b^2)
+    theta = arctan( b/a )      assure theta is in the correct quadrant
+
+
+
+
+(a + i b) + (c + i d) = (a + c) + i (b + d)
+
+(a + i b) - (c + i d) = (a - c) + i (b - d)
+
+(a + i b) * (c + i d) = (a * c - b * d) + i (a * d + b * c)
+
+(a + i b) / (c + i d) = (a*c + b*d) / (c*c + d*d) + i (b*c - a*d) / (c*c + d*d)
+
+ln(a + i b) = ln(sqrt(a*a + b*b)) + i (2*arctan(signum(b)) - arctan(a/b))
+
+signum(b) = 1 if b>0, 0 if b=0, -1 if b<0
+
+sin(a + i b) = sin(a) cosh(b) + i cos(a) sinh(b)
+
+cos(a + i b) = cos(a) cosh(b) - i sin(a) sinh(b)
+
+tan(a + i b) = (sin(a) cosh(b) + i cos(a) sinh(b)) / (cos(a) cosh(b) - i sin(a) sinh(b))
+
+arcsin(z) = k PI + -i ln (iz + sqrt(1-z^2))
+arccos(z) = k PI + -i ln(z + sqrt(z^2-1))
+arctan(z) = i/2 (ln(1-iz) - ln(1+iz))
+
+	factor sqrt(z^2-1) into sqrt(z-1) sqrt(z+1) for better accuracy.
+
+Try Kahan's acos(z) = -2i*log(sqrt((1+z)/2) + i*sqrt((1-z)/2)) ??
+
+
+sinh(a) = (e^(a) - e^(-a))/2
+
+cosh(a) = (e^(a) + e^(-a))/2
+
+tanh(a) = sinh(a) / cosh(a)
+
+arsinh(a) = ln(a + sqrt(a^2 +1))
+
+arcosh(a) = ln(a + sqrt(a^2 -1)) ; a>=1
+
+artanh(a) = (1/2)ln((1+a)/(1-a)) ; abs(a)<1
+
+sinh(a + i b) = sinh(a) cos(b) + i cosh(a) sin(b)
+
+cosh(a + i b) = cosh(a) cos(b) + i sinh(a) sin(b)
+
+tanh(a + i b) = (tanh(a) + i tan(b))/(1 + i tanh(a) tan(b))
+
+arsinh(a + i b) = ln((a + i b) + sqrt((a + i b) (a + i b) + 1)
+
+arcosh(a + i b) = ln((a + i b) + sqrt((a + i b) (a + i b) - 1)
+
+artanh(a + i b) = (1/2)*ln((1 + (a + i b))/(1 - (a + i b)))
+
+
+Comb(x, y) = gamma(x+1) / (gamma(y+1).gamma(x-y+1))
+	   = 1 / ( (x+1).beta(x-y+1, y+1) )
+
+Perm(x, y) = gamma(x+1) / gamma(x-y+1)
+
+
+For Lambert's W:
+
+	http://en.wikipedia.org/wiki/Lambert_W_function
+	http://ioannis.virtualcomposer2000.com/math/LWExpansion.html
+	http://ioannis.virtualcomposer2000.com/math/LWCalculating.html
+
+The inverse function is W-1(z) = z . e^z for real or complex z
+
+
+See An Efficient Algorithm for the Riemann Zeta Function by P. Borwein
+Canadian Mathematical Society Conference Proceedings.  Algorithm 2.
+The converges very rapidly for Im(z) small and not very quickly for Im(z) large.
+We only do the real version which converges very quickly since the running time
+for the complex version is unbounded (approximate 0.9 Im(z) terms are required).
+
+
+
+Kahan summation algorithm:
+
+  function kahanSum(input, n)
+   var sum = input[1]
+   var c = 0.0          //A running compensation for lost low-order bits.
+   for i = 2 to n
+    y = input[i] - c    //So far, so good: c is zero.
+    t = sum + y         //Alas, sum is big, y small, so low-order digits of y are lost.
+    c = (t - sum) - y   //(t - sum) recovers the high-order part of y; subtracting y recovers -(low part of y)
+    sum = t             //Algebraically, c should always be zero. Beware eagerly optimising compilers!
+   next i               //Next time around, the lost low part will be added to y in a fresh attempt.
+  return sum
+  
+We do all internal stuff at more than double precision so this mightn't be
+required but if there are stability problems, the use of this algorithm should
+be considered.
+
+
+
+
+Date and time functions:
+	http://en.wikipedia.org/wiki/Julian_day
+	http://www.hermetic.ch/cal_stud/jdn.htm#comp
+
+
+
+Complex Jacobi elliptic functions:
+
+http://mathworld.wolfram.com/JacobiEllipticFunctions.html
+
+denom = 1 - dn(u, k)^2 * sn(v, k')^2
+
+sn(u+iv, k, k') = sn(u, k) . dn(v, k') / denom
+		  + i . cn(u, k) . dn(u, k) . sn(v, k') . cn(v, k') / denom
+
+cn(u+iv, k, k') = cn(u, k) . cn(v, k') / denom
+		  - i . sn(u, k) . dn(u, k) . sn(v, k') . dn(v, k') / denom
+
+dn(u+iv, k, k') = dn(u, k) . cn(v, k') . dn(v, k') / denom
+		  - i . k^2 . sn(u, k) . cn(u, k) . sn(v, k') / denom
+
+
+
+Digamma function: psi(x)
+
+	= ln x - 1/2x + sum(n=2,20,2) Bn . x^-n		when x>8
+
+n	2	4	6	8	10	12		14	16		18		20
+Bn	1/12	-1/120	1/252	-1/240	1/132	-691/32760	1/12	-3617/8160	43867/14364	-174611/6600
+
+	psi(x+1) = psi(x) + 1/x			i.e. psi(x) = psi(x+1) - 1/x
+	psi(1-x) - psi(x) = PI cot(PI x)	i.e. psi(x) = psi(1-x) - PI cot(PI x)
+
+
+
+complex Bessel functions Jn and In:
+	S = U(0) + U(1) + ..... + U(k) + ...
+	with  U(0) = 1 and U(k) = - U(k-1) [(z/2)^2] / [k(k+n)]
+	Finally, S is multiplied by  [(z/2)^n ] / Gamma(n+1)
+for In, leading minus in the U series is omitted.
+
+
+
+
+Inverse error function:
+
+	(sqrt(pi) x)/2+1/24 pi^(3/2) x^3+7/960 pi^(5/2) x^5+(127 pi^(7/2) x^7)/80640+(4369 pi^(9/2) x^9)/11612160+(34807 pi^(11/2) x^11)/364953600+(20036983 pi^(13/2) x^13)/797058662400+(2280356863 pi^(15/2) x^15)/334764638208000+(49020204823 pi^(17/2) x^17)/26015994740736000+(65967241200001 pi^(19/2) x^19)/124564582818643968000+(15773461423793767 pi^(21/2) x^21)/104634249567660933120000+(655889589032992201 pi^(23/2) x^23)/15127122937496123473920000+(94020690191035873697 pi^(25/2) x^25)/7474578392645143363584000000+(655782249799531714375489 pi^(27/2) x^27)/178403237075654281802022912000000+(44737200694996264619809969 pi^(29/2) x^29)/41389551001551793378069315584000000+O(x^30)
+
+
+
+
+Numeric Differentiation
+
+order 4 equation:
+
+df/dx   = (1/12h).[ f(x-2h) - 8.f(x-h) + 8.f(x+h) - f(x+2h) ] + O(h^4)
+d2f/dx2 = (1/12h^2).[ - f(x-2h) + 16.f(x-h) - 30.f(x) +16.f(x+h) - f(x+2h) ] + O(h^4)
+
+exact for polynomials up to quartics.
+
+
+order 6 equation:
+
+f '(x) ~ [ - f(x-3h) + 9 f(x-2h) - 45 f(x-h) + 45 f(x+h) - 9 f(x+2h) + f(x+3h) ] / ( 60 h )
+f ''(x) ~ [ 2 f(x-3h) - 27 f(x-2h) + 270 f(x-h) - 490 f(x) + 270 f(x+h) - 27 f(x+2h) + 2 f(x+3h) ] / ( 180 h^2 )
+
+exact for polynomials of degree < 7
+
+
+order 10 equation:
+
+df/dx = (1/2520.h).[ 2100.( f1 - f-1 ) - 600.( f2 - f-2 ) + 150.( f3 - f-3 ) - 25.( f4 - f-4 ) + 2.( f5 - f-5 ) ] + O(h^10)
+d2f/dx2 = (1/25200.h^2).[ -73766 f0 + 42000.( f1 + f-1 ) - 6000.( f2 + f-2 ) + 1000.( f3 + f-3 ) - 125.( f4 + f-4 ) + 8.( f5 + f-5 ) ] + O(h^10)
+
+where f(x+kh) = fk
+
+exact for polynomials of degree < 11
+
+
+
+
+Prime testing uses the conjectures from:
+
+	http://mathworld.wolfram.com/StrongPseudoprime.html
+
+However we are very conservative and are probably safe well beyond the maximum
+exactly representable integer of 2^64-1.

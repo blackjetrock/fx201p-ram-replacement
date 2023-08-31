@@ -52,7 +52,7 @@
 
 
 // We need access to emulation ram
-uint8_t ram_data[RAM_SIZE];
+extern uint8_t ram_data[RAM_SIZE];
 
 void process_fx201p_execution(void);
 

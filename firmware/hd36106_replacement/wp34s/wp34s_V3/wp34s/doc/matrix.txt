@@ -1,0 +1,353 @@
+There are a number of built in matrix related commands.  Many of these
+are designed to provide the low level support routines for creating more
+useful matrix functions as key stroke programs.  I.e. they correspond
+to the BLAS of the 34S's matrix support.  Others perform high level
+operations (e.g. matrix multiply, LU decomposition) and are useful as
+they are.
+
+Some of these commands are optional and can be included or excluded via
+build time options.  Currently, these options are available:
+
+	Option				Default
+	----------------------------------------
+	MATRIX_LU_DECOMP		enabled
+	MATRIX_ROWOPS			enabled
+	SILLY_MATRIX_SUPPORT		disabled
+
+    
+
+All of these routines take or create a matrix descriptor.  This is a
+real number in the format:
+
+	bb.rrcc
+
+where:
+	bb is the base register (00 - 99).
+
+	rr is the number of rows in the matrix (01 - 99).
+
+	cc is the number of columns in the matrix (01 - 99).  If cc
+		is omitted, the value of rr is used and the matrix
+		is assumed to be square.
+
+
+
+Matrix commands
+---------------
+
+TRANSP - matrix transpose.
+
+	Takes a matrix descriptor in X (in the bb.ccrr format) and
+	returns the descriptor for the transpose of X (bb.rrcc).
+	The transpose is done in-situ and doesn't require any
+	additional registers or storage.  This is kind of fiddly
+	when done in RPN.
+
+
+M[times] - matrix multiply
+
+	Takes matrix descriptors in Y and Z and the integer part
+	of X as the base of the result.  It calculates X = Z * Y.
+	The fraction portion of X is updated to match the resulting
+	matrix and no overlap checking is performed.  All calculations
+	are done internally in high precision, although it would
+	still be possible to trick the code up and produce bad
+	results.  It would be very difficult to get the same degree
+	of accuracy in RPN since the best that can easily be achieves
+	there is a*b+c*d and a matrix multiply adds more terms than
+	this.
+
+
+M+[times] - generalised matrix addition.
+
+	Takes a real in z and matrix descriptors in Y and X.
+	Calculates X = X + z * Y.  That is a scalar multiple of a
+	matrix is added to another matrix.  Again the multiply adds
+	are done in extended precision and results should be exactly
+	rounded.  This one would be possible in RPN without losing
+	accuracy but again, fiddly.
+
+MROW[<->]  (similar to PPC M1).			Optional: MATRIX_ROWOPS
+
+	Takes a matrix descriptor in X, and two row numbers in Y
+	and Z.  It swaps those two rows in the matrix.  The stack
+	is unmodified.
+
+
+MROW[times]   (similar to PPC M2).		Optional: MATRIX_ROWOPS
+
+	Takes a matrix descriptor in X, a row number in Y and a
+	constant in z.  It multiplies the specified row of the
+	matrix by z.  The stack is unmodified.
+
+
+MROW+[times]   (similar to PPC M3).		Optional: MATRIX_ROWOPS
+
+	Takes a matrix descriptor in X, a destination row number
+	in Y, a source row number in Z and a constant in t.  It
+	multiples the contents of row Z by t and adds these to row
+	Y.  i.e. X[*:Y] = X[*:Y] + t * X[*:Z].  The stack is
+	unchanged.
+
+
+M.IJ   (similar to PPC M4).
+
+	Takes a matrix descriptor in X and a register number in Y.
+	Returns the column that register represents in Y and the
+	row in X.  The matrix descriptor is saved in last X.
+
+
+M.REG   (similar to PPC M5).
+
+	Takes a matrix descriptor in X, a row number in Y and a
+	column number in Z.  Returns the register index in X (popping
+	the stack twice).  The matrix descriptor is saved in last
+	X.
+
+M-ALL
+	Takes a matrix descriptor in X and returns a value suitable
+	for ISG or DSL looping in X (and sets last X like all good
+	commands).  The loop processes all elements in the matrix.
+	The loop index is DSL if the descriptor is negative and ISG
+	for positive.
+
+M-DIAG
+
+	Takes a matrix descriptor in X and returns a value suitable
+	for ISG or DSL looping in X (and sets last X appropriately).
+	The loop processes all elements along the matrix diagonal.
+	The loop index is DSL if the descriptor is negative and ISG
+	for positive.
+
+
+M-ROW
+
+	Takes a matrix descriptor in X and a row number in Y.  It
+	returns a value suitable for looping in X (dropping the
+	stack and setting last x like all two argument commands).
+	The loop process all elements in the specified row only.
+	The loop index is DSL if the descriptor is negative and ISG
+	for positive.
+
+
+M-COL
+
+	Takes a matrix descriptor in X and a column number in Y.
+	It returns a value suitable for looping in X (again acting
+	like a two argument command).  The loop processes all
+	elements in the specified column only.  The loop index is
+	DSL if the descriptor is negative and ISG for positive.
+
+
+nROW
+
+	Takes a matrix descriptor in X and returns the number of
+	rows in the matrix.  The descriptor is saved in LastX.
+
+
+nCOL
+
+	Takes a matrix descriptor in X and returns the number of
+	columns in the matrix.  The descritpor is saved in LastX.
+
+
+M.SQR?
+
+	Takes a matrix descriptor in X and skips the next step if the
+        matrix isn't square.
+
+
+M.IDEN		Not included			Optional: SILLY_MATRIX_SUPPORT
+
+	Takes a matrix descriptor for a square matrix in X and fills
+	the corresponding registers so that it is an identity matrix.
+
+
+M.ZERO		Not included			Optional: SILLY_MATRIX_SUPPORT
+
+	Takes a matrix descriptor in X and zeros the registers
+	corresponding to the matrix.  The stack remains unchanged.
+
+
+M.COPY
+
+	Takes a matrix descriptor in Y and a register number in X.
+	Copies the matrix into registers starting from X.  Returns
+	a properly formed matrix descriptor in X.
+
+
+DET
+
+	Takes a matrix descriptor in X and return the determinant
+	of the matrix.  The matrix must be square and is not modified.
+
+
+M.LU		Not included			Optional: MATRIX_LU_DECOMP
+
+	Takes a matrix descriptor in X modify the matrix into its
+	LU decomposition.  The matrix must be square and it is
+	modified in-situ.  The value in X is replaced by a pivot
+	descriptor that defines the pivots that were required to
+	calculate the decomposition.  The most significant digit
+	is the pivot for the first diagonal entry, the next most
+	the second and so forth.
+
+
+LINEQS
+
+	Takes a square matrix descriptor in Z and a vector maxtix
+	descriptor in y and a base register in x and solves the
+	system of linear equations Zx = y.  Returns the filled out
+	matrix descriptor in X.
+
+
+M^-1
+
+	Takes a square matrix descriptor in X and inverts the matrix
+	in-situ.  Doesn't alter the stack.
+
+
+
+Errors
+------
+
+	"Out of Range" is a matrix descriptor would go beyond the
+		registers available or a row or column index is too
+		large or negative.
+
+	"Bad Parameter" if the number of columns is zero.
+
+	"Matrix Dimension" if a matrix isn't square when it should
+		be or matrix sizes aren't miscable.
+
+	"Singular Error" if a matrix is LU decomposed, used to solve
+		a system of equations or is inverted when it isn't
+		of full rank.
+
+
+
+Matrix library
+--------------
+
+This are routines coded as user keytroke programs.  They are generally
+not as well behaved as the above functions.  They also need to be loaded
+onto the calculator before they are available.
+
+
+'M-1'
+
+	Takes a matrix descriptor in X and initialises an identity
+	matrix (1 down the diagonal and zero every were else).  X
+	is preserved, L is overwritten.
+
+
+'M-0'
+
+	Takes a matrix descriptor in X and initialises a zero matrix
+	X is preserved, L is overwritten.
+
+
+'ATR'
+
+	Takes a matrix descriptor in X and returns the sum of the
+	absolute values of the diagonal elements.  Clears flag C.
+	Requires three stack levels, L is overwritten.
+
+
+'TR'
+
+	Takes a matrix descriptor in X and returns the trace of the
+	matrix.  Clears flag C.  Requires three stack levels, L is
+	overwritten.
+
+
+'M-'
+
+	Takes a matrix descriptor in X and Y.  Subtracts matrix Y
+	from matrix X.  Stack levels X and Y are unchanged.  Z is
+	set to -1 and levels above this are lifted one position.
+
+
+'M+'
+
+	Takes a matrix descriptor in X and Y.  Add matrix Y from
+	matrix X.  Stack levels X and Y are unchanged.  Z is set
+	to 1 and levels above this are lifted one position.
+
+
+'M-y'
+
+	Takes a matrix descriptor in X and a scalar constant in y.
+	Multiplies X by y.  The original matrix descriptor is in L
+	on exit.  Both arguments are dropped from the stack.
+
+
+'FNM'
+
+	Takes a matrix descriptor in X.  Calculates the Frobenius
+	norm of the matrix.  Overwrites the stack and L.
+
+
+'RNM'
+
+	Takes a matrix descriptor in X.  Calcualtes the row norm
+	of the matrix.  Overwrites the stack, A, B, C, D and L.
+	Clears flag C.
+
+
+'CNM'
+
+	Takes a matrix descriptor in X.  Calcualtes the column norm
+	of the matrix.  Overwrites the stack, A, B, C, D and L.
+	Clears flag C.
+
+
+'MFD'
+
+	Takes a matrix descriptor in X and a value in Y.  Find the
+	first matching element in the matrix and returns the register
+	number of that element.
+
+
+'M[^]'
+
+	Takes a matrix descriptor in X and returns the maximum value
+	in the matrix.  Uses the two stack levels and overwrites L.
+
+
+'M[v]'
+
+	Takes a matrix descriptor in X and returns the minimum value
+	in the matrix.  Uses the two stack levels and overwrites L.
+
+
+'MIO'
+
+	Review / enter the elements of an entire matrix.  Matrix
+	descriptor in X on entry.  Review and/or modify each element
+	in turn pressing R/S between each.  The original matrix
+	descriptor in left in L.  The stack is overwritten.  I is
+	overwritten.
+
+
+'MRC'
+
+	Review / enter individual elements of a matrix.  Matrix
+	descriptor in X on entry.  For each element, enter the row
+	then the column and press R/S.  Review the element's value
+	and optionally change it then press R/S again.  The original
+	matrix descriptor in left in L.  The stack is overwritten.
+	I is overwritten.
+
+
+'MED'
+
+	More involved interactive matrix editor. 
+	Look at library/matrixedit.wp34s for complete instructions.
+	Start it with a descriptor in X. Use arrow keys to navigate.
+	Typing a number will suspend the editor and allow entering
+	values. Press R/S to input the value and continue. Press <-
+	to exit the editor gracefully. The descriptor is in A.
+	
+
+

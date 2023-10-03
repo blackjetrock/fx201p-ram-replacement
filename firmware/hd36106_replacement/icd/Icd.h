@@ -33,11 +33,10 @@ public:
   // Default constructor.
   icd();
 
-  // ICD of a long
   icd(const long value, const long remainder = 0);
 
   // ICD of a 64bits int
-  icd(const int64 value,const int64 remainder = 0);
+  //icd(const int64 value,const int64 remainder = 0);
 
   // Copy constructor.
   icd(const icd& icd);

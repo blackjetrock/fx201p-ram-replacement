@@ -274,7 +274,56 @@ CMakeFiles/hd36106_replacement.dir/hd36106_replacement.cpp.obj: ../hd36106_repla
   /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
   /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
   /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  ../bf/libbf.h \
+  ../icd/Icd.h \
+  /usr/include/newlib/c++/9.2.1/string \
+  /usr/include/newlib/c++/9.2.1/bits/stringfwd.h \
+  /usr/include/newlib/c++/9.2.1/bits/memoryfwd.h \
+  /usr/include/newlib/c++/9.2.1/bits/char_traits.h \
+  /usr/include/newlib/c++/9.2.1/bits/postypes.h \
+  /usr/include/newlib/c++/9.2.1/cwchar \
+  /usr/include/newlib/wchar.h \
+  /usr/include/newlib/c++/9.2.1/cstdint \
+  /usr/include/newlib/c++/9.2.1/bits/allocator.h \
+  /usr/include/newlib/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++allocator.h \
+  /usr/include/newlib/c++/9.2.1/ext/new_allocator.h \
+  /usr/include/newlib/c++/9.2.1/new \
+  /usr/include/newlib/c++/9.2.1/exception \
+  /usr/include/newlib/c++/9.2.1/bits/exception.h \
+  /usr/include/newlib/c++/9.2.1/bits/exception_ptr.h \
+  /usr/include/newlib/c++/9.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/newlib/c++/9.2.1/typeinfo \
+  /usr/include/newlib/c++/9.2.1/bits/hash_bytes.h \
+  /usr/include/newlib/c++/9.2.1/bits/nested_exception.h \
+  /usr/include/newlib/c++/9.2.1/bits/localefwd.h \
+  /usr/include/newlib/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++locale.h \
+  /usr/include/newlib/c++/9.2.1/clocale \
+  /usr/include/newlib/locale.h \
+  /usr/include/newlib/c++/9.2.1/iosfwd \
+  /usr/include/newlib/c++/9.2.1/cctype \
+  /usr/include/newlib/c++/9.2.1/bits/ostream_insert.h \
+  /usr/include/newlib/c++/9.2.1/bits/cxxabi_forced.h \
+  /usr/include/newlib/c++/9.2.1/bits/stl_function.h \
+  /usr/include/newlib/c++/9.2.1/backward/binders.h \
+  /usr/include/newlib/c++/9.2.1/bits/range_access.h \
+  /usr/include/newlib/c++/9.2.1/initializer_list \
+  /usr/include/newlib/c++/9.2.1/bits/basic_string.h \
+  /usr/include/newlib/c++/9.2.1/ext/atomicity.h \
+  /usr/include/newlib/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/gthr.h \
+  /usr/include/newlib/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/gthr-default.h \
+  /usr/include/newlib/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/atomic_word.h \
+  /usr/include/newlib/c++/9.2.1/ext/alloc_traits.h \
+  /usr/include/newlib/c++/9.2.1/bits/alloc_traits.h \
+  /usr/include/newlib/c++/9.2.1/string_view \
+  /usr/include/newlib/c++/9.2.1/bits/functional_hash.h \
+  /usr/include/newlib/c++/9.2.1/bits/string_view.tcc \
+  /usr/include/newlib/c++/9.2.1/ext/string_conversions.h \
+  /usr/include/newlib/c++/9.2.1/cstdio \
+  /usr/include/newlib/c++/9.2.1/cerrno \
+  /usr/include/newlib/errno.h \
+  /usr/include/newlib/sys/errno.h \
+  /usr/include/newlib/c++/9.2.1/bits/basic_string.tcc \
+  /usr/include/newlib/c++/9.2.1/climits \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
   ../fx201p.h
 
 CMakeFiles/hd36106_replacement.dir/icd/Icd.cpp.obj: ../icd/Icd.cpp \
@@ -3418,8 +3467,6 @@ CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_c
 
 /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
 
-/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h:
-
 /usr/include/newlib/c++/9.2.1/ext/string_conversions.h:
 
 /usr/include/newlib/c++/9.2.1/string_view:
@@ -3688,6 +3735,8 @@ generated/pico_base/pico/version.h:
 
 generated/pico_base/pico/config_autogen.h:
 
+/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h:
+
 /usr/include/newlib/sys/types.h:
 
 /usr/include/newlib/machine/_default_types.h:
@@ -3909,8 +3958,6 @@ generated/pico_base/pico/config_autogen.h:
 /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
 
 /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
-
-../bf/libbf.h:
 
 /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
 

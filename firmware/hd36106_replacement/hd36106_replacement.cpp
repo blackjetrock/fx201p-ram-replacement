@@ -4,7 +4,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 //
-// Emulates two HD36106 RAM chips, specificslly for the FX201P calculator
+// Emulates two HD36106 RAM chips, specifically for the FX201P calculator
 //
 // Both RAM chips emulated
 // RAM can be saved and loaded to and from RP2040 flash
@@ -31,7 +31,7 @@
 #include "pico/multicore.h"
 #include "pico/bootrom.h"
 
-#include "bf/libbf.h"
+#include "icd/Icd.h"
 #include "fx201p.h"
 
 // Single shot trae, don't repeatedly capture data
@@ -176,7 +176,7 @@ uint64_t douthi = 0;
 volatile int stopped = 0;
 
 #define TRACE_BIT  7
-#define NUM_TRACE_ENTRIES  20
+#define NUM_TRACE_ENTRIES  100
 volatile uint8_t exec_trace_address[NUM_TRACE_ENTRIES];
 volatile uint8_t exec_trace_data[NUM_TRACE_ENTRIES];
 volatile uint8_t exec_trace_flags[NUM_TRACE_ENTRIES];
@@ -1000,17 +1000,38 @@ void cli_boot_mass(void)
   reset_usb_boot(0,0);
 }
 
-static bf_context_t bf_ctx;
-
-static void *my_bf_realloc(void *opaque, void *ptr, size_t size)
-{
-  printf("\nrealloc");
-    return realloc(ptr, size);
-}
-
-
+// Test the BCD library
 void cli_bcd_test(void)
 {
+  // Do some simple calculations
+  icd a("10.5");
+  icd b("2");
+  icd z = a / b;
+  
+  printf("\na = %s", a.AsDisplayString().c_str());
+  printf("\nb = %s", b.AsDisplayString().c_str());
+  printf("\nz = %s", z.AsDisplayString().c_str());
+
+
+  icd sin45("45");
+  sin45 = sin45 / icd("180") * icd("PI");
+  sin45 = sin45.Sine();
+  
+  printf("\nsin45 = %s", sin45.AsDisplayString().c_str());
+  sin45 = sin45 * sin45;
+  
+  printf("\nsin45 = %s", sin45.AsDisplayString().c_str());
+
+  printf("\nStart");
+
+  for(int i=0; i< 100; i++)
+    {
+      sin45 = sin45 * sin45;
+      printf("\nsin45 = %s", sin45.AsDisplayString().c_str());
+    }
+  
+  printf("\nEnd");
+
 }
 
 // Another digit pressed, update the parameter variable

@@ -55,19 +55,19 @@ icd::icd(const icd& p_icd)
 //                const long remainder  // value behind the '.'
 // What it does:  Uses SetValue long to initialize the icd
 //
-#if 0
+
 icd::icd(const long value, const long remainder)
 {
   SetValueLong(value,remainder);
 }
-#endif
+
 
 // Icd::Icd
 // Copy constructor with an int64 (64 bits) and an optional remainder (32 bit)
-icd::icd(const int64 value, const int64 remainder)
-{
-  SetValueInt64(value, remainder);
-}
+//icd::icd(const int64 value, const int64 remainder)
+//{
+//  SetValueInt64(value, remainder);
+//}
 
 // Icd::Icd
 // Description:   copy constructor from a double. Beware for rounding errors

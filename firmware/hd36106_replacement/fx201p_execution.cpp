@@ -25,6 +25,9 @@ void print_keystroke(int byte, int no_lf);
 
 ////////////////////////////////////////////////////////////////////////////////
 
+int executing = 0;
+int exec_pc = 0x80;
+
 int tok_loc[NUM_ST];
 double xreg = 0;
 

@@ -171,10 +171,34 @@ void set_display(icd n)
   strcpy(display, n.AsString().c_str());
 }
 
+// Process a keystroke in calculator mode
+
+void mode_comp(int token)
+{
+
+}
+
+void mode_run(int token)
+{
+
+}
+
+void mode_write(int token)
+{
+
+}
+
+int poll_keyboard(void)
+{
+}
+
+CALCULATOR_STATE state;
+
 int main(void)
 {
   icd x,y;
-
+  int key;
+  
   x = icd(1234L);
   y = icd(10L);
   x = x / y;
@@ -186,9 +210,26 @@ int main(void)
   printf("\n%s", display);
   
   printf("\n");
+
   
   while(1)
     {
+      key = poll_keyboard();
+
+      switch( state.state )
+	{
+	case CALC_STATE_COMP:
+	  mode_comp(key);
+	  break;
+	  
+	case CALC_STATE_RUN:
+	  mode_run(key);
+	  break;
+	  
+	case CALC_STATE_WRITE:
+	  mode_write(key);
+	  break;
+	}
       
     }
 }

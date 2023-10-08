@@ -1,3 +1,4 @@
+#include "icd/Icd.h"
 
 
 // Instruction tokens
@@ -59,3 +60,16 @@ void process_fx201p_execution(void);
 extern int executing;
 extern int exec_pc;
 
+#define CALC_STATE_COMP   1
+#define CALC_STATE_RUN    2
+#define CALC_STATE_WRITE  3
+
+// The execution state of the calculator
+typedef struct _CALCULATOR_STATE
+{
+  icd x;
+  icd y;
+  int pending_operator;
+  int state;
+} CALCULATOR_STATE;
+ 

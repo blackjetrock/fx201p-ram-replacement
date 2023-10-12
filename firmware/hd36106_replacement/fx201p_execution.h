@@ -6,7 +6,7 @@
 #define TOK_NONE  0x00
 
 #define TOK_MAC	  0xC1
-#define TOK_1x	  0xC2
+#define TOK_1X	  0xC2
 #define TOK_GOTO  0xC2   // Alias
 #define TOK_SUB	  0xC3
 #define TOK_ST	  0xC4
@@ -14,19 +14,19 @@
 #define TOK_MJ	  0xC6
 
 #define TOK_SQRT  0xB1
-#define TOK_log	  0xB2
-#define TOK_ln	  0xB3
-#define TOK_ex	  0xB4
-#define TOK_xy	  0xB5
-#define TOK_10x   0xB6
+#define TOK_LOG	  0xB2
+#define TOK_LN	  0xB3
+#define TOK_EX	  0xB4
+#define TOK_XY	  0xB5
+#define TOK_10X   0xB6
 
 #define TOK_PLMN 0xA1
 #define TOK_K	 0xA2
 #define TOK_IF	 0xA3
-#define TOK_arc	 0xA4
-#define TOK_sin	 0xA5
-#define TOK_cos	 0xA6
-#define TOK_tan	 0xA7
+#define TOK_ARC	 0xA4
+#define TOK_SIN	 0xA5
+#define TOK_COS	 0xA6
+#define TOK_TAN	 0xA7
 
 #define TOK_EQ	  0xD0
 #define TOK_IM	  0xD1
@@ -51,6 +51,9 @@
 #define TOK_8	 0xF8
 #define TOK_9	 0xF9
 
+#define TOK_AC   0x100
+#define TOK_C    0x101
+#define TOK_PI   0x102
 
 // We need access to emulation ram
 extern uint8_t ram_data[RAM_SIZE];
@@ -70,6 +73,12 @@ typedef struct _CALCULATOR_STATE
   icd x;
   icd y;
   int pending_operator;
+  int clear_on_next_key;
   int state;
 } CALCULATOR_STATE;
  
+typedef struct _KEY_TABLE
+{
+  char key_str[10];
+  int keycode;
+} KEY_TABLE;

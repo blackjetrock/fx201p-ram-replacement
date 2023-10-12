@@ -103,7 +103,7 @@ void process_fx201p_execution(void)
       exec_pc++;
       break;
 
-    case TOK_tan:
+    case TOK_TAN:
       // Increment memory 1
       v = mem_to_dbl(ADDRESS_OF_MEM(1));
       v = v + 1;

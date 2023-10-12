@@ -1,1 +1,1 @@
-g++ -o pc -Duint8_t=u_int8_t fx201p_execution_pc.cpp fx201p_execution.cpp icd/Icd.cpp
+g++ -o pc -Duint8_t=u_int8_t fx201p_execution_pc.cpp fx201p_execution.cpp icd/Icd.cpp -lncurses

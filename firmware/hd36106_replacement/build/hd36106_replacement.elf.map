@@ -1706,9 +1706,9 @@ Discarded input sections
                 0x0000000000000000        0x1 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .bss.lockout_mutex
                 0x0000000000000000        0x8 CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccw5OFTt.o
- .data          0x0000000000000000        0x0 /tmp/ccw5OFTt.o
- .bss           0x0000000000000000        0x0 /tmp/ccw5OFTt.o
+ .text          0x0000000000000000        0x0 /tmp/cc6U4wkF.o
+ .data          0x0000000000000000        0x0 /tmp/cc6U4wkF.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6U4wkF.o
  .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a(guard.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a(guard.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a(guard.o)
@@ -5929,7 +5929,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccw5OFTt.o
+ .boot2         0x0000000010000000      0x100 /tmp/cc6U4wkF.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -8381,7 +8381,7 @@ LOAD CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/
 LOAD CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 LOAD CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 LOAD CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-LOAD /tmp/ccw5OFTt.o
+LOAD /tmp/cc6U4wkF.o
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -8513,7 +8513,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000908       0x2c CMakeFiles/hd36106_replacement.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
-                0x0000000000000934       0x22 /tmp/ccw5OFTt.o
+                0x0000000000000934       0x22 /tmp/cc6U4wkF.o
  .ARM.attributes
                 0x0000000000000956       0x2c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a(guard.o)
  .ARM.attributes

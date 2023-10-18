@@ -53,7 +53,6 @@
 
 #define TOK_AC   0x100
 #define TOK_C    0x101
-#define TOK_PI   0x102
 
 // We need access to emulation ram
 extern uint8_t ram_data[RAM_SIZE];
@@ -71,10 +70,16 @@ extern int exec_pc;
 typedef struct _CALCULATOR_STATE
 {
   icd x;
+  icd x_mantissa;
+  icd x_exponent;
   icd y;
   int pending_operator;
   int clear_on_next_key;
   int state;
+  int arc;
+  int before_dot;
+  icd dot_mul;
+  int dot_mul_i;
 } CALCULATOR_STATE;
  
 typedef struct _KEY_TABLE

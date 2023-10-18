@@ -19,7 +19,7 @@
 #include <termio.h>
 #include <unistd.h>
 
-char display[20];
+char display[300];
 uint8_t ram_data[];
 
 #if 0
@@ -208,9 +208,66 @@ double mem_to_dbl(uint8_t *m)
   return(result);
 }
 
-void set_display(icd n)
+void init_state(CALCULATOR_STATE *state)
 {
+  state->x = 0.0;
+  state->y = 0.0;
+  state->pending_operator = TOK_NONE;
+  state->state = CALC_STATE_COMP;
+  state->clear_on_next_key = 0;
+  state->before_dot = 1;
+  state->dot_mul = 0.1;
+  state->dot_mul_i = 1;
+}
+
+// Display icd in calculator format, whatever that is
+
+void set_display(CALCULATOR_STATE *s, icd n)
+{
+  int dotp = 0;
+  char str[40];
+  
   strcpy(display, n.AsString().c_str());
+  sprintf(str, "%d", strlen(display));
+  mvaddstr(22, 5, str);
+  
+  // Find dot position
+  for(dotp = 0; dotp<strlen(display); dotp++)
+    {
+      mvaddch(24, 5+dotp, display[dotp]);
+      if( display[dotp] == '.' )
+	{
+	  break;
+	}
+    }
+
+  // If we are entering digits after the decimal point then display
+  // trailing zeros up to that point
+  // Allow at least dot_mul_i trailing zeros
+  
+  int dot_mul_i = strlen((s->dot_mul).AsString().c_str());
+  
+  sprintf(str, "dotp=%d dot_mul_i=%d", dotp, dot_mul_i);
+  mvaddstr(23, 5, str);
+
+  // Lose trailing zeros
+  for(int i=strlen(display)-1; i>dotp+(s->dot_mul_i)-1; i--)
+    {
+      if( display[i] == '0' )
+	{
+	  display[i] = '\0';
+	}
+      else
+	{
+	  break;
+	}
+    }
+
+  // If last character is a dot then add a trailing zero
+  if( display[strlen(display)-1] == '.' )
+    {
+      strcat(display, "0");
+    }
 }
 
 // Process a keystroke in comp mode
@@ -225,6 +282,9 @@ void mode_comp(CALCULATOR_STATE *state, int token)
       state->x = 0.0;
       
       state->clear_on_next_key = 0;
+      state->before_dot = 1;
+      state->dot_mul = 0.1;
+      state->dot_mul_i = 1;
       
     }
   
@@ -240,11 +300,32 @@ void mode_comp(CALCULATOR_STATE *state, int token)
     case TOK_7:
     case TOK_8:
     case TOK_9:
-      state->x *= 10.0;
-      val = token - TOK_0;
-      state->x += (long int)val;
+      if( state->before_dot )
+	{
+	  state->x *= 10.0;
+	  val = token - TOK_0;
+	  state->x += (long int)val;
+	}
+      else
+	{
+	  val = token - TOK_0;
+
+	  icd enter_frag = (long int)val;
+	  enter_frag *= state->dot_mul;
+	  
+	  state->x += enter_frag;
+
+	  state->dot_mul /= 10.0;
+	  state->dot_mul_i++;
+	}
       break;
 
+    case TOK_DOT:
+      state->before_dot = 0;
+      state->dot_mul = 0.1;
+      state->dot_mul_i = 1;
+      break;
+      
     case TOK_PL:
       state->clear_on_next_key = 1;
       state->pending_operator = token;
@@ -299,31 +380,67 @@ void mode_comp(CALCULATOR_STATE *state, int token)
       break;
 
     case TOK_AC:
-      state->x = 0.0;
-      state->y = 0.0;
-      state->pending_operator = TOK_NONE;
-      state->clear_on_next_key = 0;
-      
+      init_state(state);
       break;
 
     case TOK_C:
-      state->y = 0.0;
+      state->x = 0.0;
       break;
 
     case TOK_SIN:
-      state->x = sin(state->x);
+      if( state->arc )
+	{
+	  state->x = state->x.ArcSine();
+	  state->arc = 0;
+	}
+      else
+	{
+	  state->x = state->x.Sine();
+	}
       break;
 
     case TOK_COS:
-      state->x = cos(state->x);
+      if( state->arc )
+	{
+	  state->x = state->x.ArcCosine();
+	  state->arc = 0;
+	}
+      else
+	{
+	  state->x = state->x.Cosine();
+	}
       break;
 
     case TOK_TAN:
-      state->x = tan(state->x);
+      if( state->arc )
+	{
+	  state->x = state->x.ArcTangent();
+	  state->arc = 0;
+	}
+      else
+	{
+	  state->x = state->x.Tangent();
+	}
       break;
 
-    case TOK_PI:
+    case TOK_SQRT:
+      state->x = state->x.SquareRoot();
+      break;
+
+    case TOK_LN:
+      state->x = state->x.Log();
+      break;
+
+    case TOK_LOG:
+      state->x = state->x.Log10();
+      break;
+
+    case TOK_K:
       state->x = 3.14159265358979323;
+      break;
+
+    case TOK_ARC:
+      state->arc = 1;
       break;
     }
 }
@@ -353,31 +470,34 @@ void display_status(CALCULATOR_STATE *s)
 
   sprintf(ts, "X:%s Y:%s", xs, ys);
   mvaddstr(20, 12, xs);
+
+  set_display(s, s->x);
+  mvaddstr(21, 12, display);
 }
 
 KEY_TABLE fx201p_key_table[] =
   {
 
    {"MAC"  , 0xC1},
-   {"1/x"  , 0xC2},
+   {"1/X"  , 0xC2},
    {"GOTO" , 0xC2},
    {"SUB#" , 0xC3},
    {"ST#"  , 0xC4},
    {":"    , 0xC5},
    {"MJ"   , 0xC6},
    {"SQRT" , 0xB1},
-   {"log"  , 0xB2},
-   {"ln"   , 0xB3},
+   {"LOG"  , 0xB2},
+   {"LN"   , 0xB3},
    {"e^x"  , 0xB4},
    {"x^y"  , 0xB5},
    {"10^x" , 0xB6},
    {"+-"   , 0xA1},
    {"K"    , 0xA2},
    {"IF"   , 0xA3},
-   {"arc"  , 0xA4},
-   {"sin"  , 0xA5},
-   {"cos"  , 0xA6},
-   {"tan"  , 0xA7},
+   {"ARC"  , 0xA4},
+   {"SIN"  , 0xA5},
+   {"COS"  , 0xA6},
+   {"TAN"  , 0xA7},
    {"EQ"   , 0xD0},
    {"="    , 0xD0},
    {"IM"   , 0xD1},
@@ -401,7 +521,7 @@ KEY_TABLE fx201p_key_table[] =
    {"8"    , 0xF8},
    {"9"    , 0xF9},
    {"AC"   , 0x100},
-   {"C"    , 0x101},
+   {"CLR"  , 0x101},
    {"NONE" , 0x00},
   };
 
@@ -428,7 +548,9 @@ int poll_keyboard(void)
 {
   int c = wgetch(stdscr);
   int keystroke = -1;
-  
+
+  mvaddch(2,2, '*');
+  mvaddch(2,2, ' ');
   if( c != ERR )
     {
       char hexc[10];
@@ -439,6 +561,13 @@ int poll_keyboard(void)
       // Add to string and see if we have a keystroke
       keystr[keystr_i++] = toupper(c);
 
+      if( c == 27 )
+	{
+	  mvaddstr(8, 10, "------");
+	  keystr_i = 0;
+	  return(-1);
+	}
+      
       if( (keystroke = find_keystroke(keystr)) != -1 )
 	{
 	  // Found one, reset string
@@ -470,17 +599,20 @@ int main(void)
   
   printf("\n%s", x.AsString().c_str());
   
-  set_display(x);
+  set_display(&state, x);
   
   printf("\n%s", display);
   
   printf("\n");
 
+  init_state(&state);
+#if 0  
   state.x = icd(0L);
   state.y = icd(0L);
   state.state = CALC_STATE_COMP;
   state.clear_on_next_key = 0;
   state.pending_operator - TOK_NONE;
+#endif
   
   while(1)
     {

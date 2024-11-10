@@ -12,7 +12,7 @@ module. That replaces the memories and the program RAM. Additional features are 
 * Load all memory from flash
 * Catalog of flash slots.
 
-  The flash has 250 slots, each is big enough to hold the entire RAm of the FX201P.
+  The flash has 250 slots, each is big enough to hold the entire RAM of the FX201P.
 
   
 Command Mechanism
@@ -23,14 +23,15 @@ To issue a command to the RP2040, put a number of the following format in M8:
 ccsnnn E88
 
 where:
-
+```
 cc     Command code
 s      Status
 nnn    Parameter
-
+```
 
 Command codes:
 
+```
 94          Zero all memory (both HD356106 RAM areas, but not flash)
 95          Zero memories
 96          Zero program space
@@ -44,6 +45,7 @@ Command codes:
 17          Save program area to flash slot nnn
 
 47          Shows empty flash slots as a bitmap in octal in M9 A 1 denotes a non-blank slot
+```
 
 USB Interface
 =============

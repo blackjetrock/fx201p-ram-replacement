@@ -10,7 +10,7 @@ module. That replaces the memories and the program RAM. Additional features are 
 * Load memory space from flash
 * Save all memory to flash
 * Load all memory from flash
-* atalog of flash slots.
+* Catalog of flash slots.
 
   The flash has 250 slots, each is big enough to hold the entire RAm of the FX201P.
 
